@@ -743,7 +743,7 @@
 //        NSLog(@"Failed to validate program: (%d)", currentProgram);
 //    }
 }
-
+//test
 - (void)drawStar:(StarAnimation *)star{
     
 //    NSLog(@"%@ : %@ ", self, NSStringFromSelector(_cmd));
