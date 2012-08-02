@@ -2,15 +2,15 @@ TKidsPaint
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Info.plist" DynamicTextures-Info.plist
 cCpResource /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/DynamicTextures.app/ResourceRules.plist
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/running_light2.png" Design/Pencils/running_light2.png
+cProcessInfoPlistFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Info.plist" DynamicTextures-Info.plist
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/running_light1.png" Design/Pencils/running_light1.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/running_light2.png" Design/Pencils/running_light2.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/running_shadow.png" Design/Pencils/running_shadow.png
 cCpResource Classes/../TexturePlusColorChangeShader.fsh build/Debug-iphoneos/DynamicTextures.app/TexturePlusColorChangeShader.fsh
 cCpResource Classes/../TexturePlusColorChangeShader.vsh build/Debug-iphoneos/DynamicTextures.app/TexturePlusColorChangeShader.vsh
-cCpResource Classes/../FinalPictureWithShading.vsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureWithShading.vsh
 cCpResource Classes/../FinalPictureWithShading.fsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureWithShading.fsh
+cCpResource Classes/../FinalPictureWithShading.vsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureWithShading.vsh
 cCpResource Classes/../BasicLightingShader.vsh build/Debug-iphoneos/DynamicTextures.app/BasicLightingShader.vsh
 cCpResource Classes/../BasicLightingShader.fsh build/Debug-iphoneos/DynamicTextures.app/BasicLightingShader.fsh
 cCpResource Classes/../TexturePlusAlphaShader.fsh build/Debug-iphoneos/DynamicTextures.app/TexturePlusAlphaShader.fsh
@@ -18,8 +18,8 @@ cCpResource Classes/../TexturePlusAlphaShader.vsh build/Debug-iphoneos/DynamicTe
 cCpResource Classes/../DrawBrushLineShader.vsh build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.vsh
 cCpResource Classes/../DrawBrushLineShader.fsh build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh
 cCpResource Classes/../ShadingShader.vsh build/Debug-iphoneos/DynamicTextures.app/ShadingShader.vsh
-cCpResource Classes/../FillingShader.fsh build/Debug-iphoneos/DynamicTextures.app/FillingShader.fsh
 cCpResource Classes/../ShadingShader.fsh build/Debug-iphoneos/DynamicTextures.app/ShadingShader.fsh
+cCpResource Classes/../FillingShader.fsh build/Debug-iphoneos/DynamicTextures.app/FillingShader.fsh
 cCpResource Classes/../FillingShader.vsh build/Debug-iphoneos/DynamicTextures.app/FillingShader.vsh
 cCpResource Classes/../SimpleTexturingShader.vsh build/Debug-iphoneos/DynamicTextures.app/SimpleTexturingShader.vsh
 cCpResource Classes/../SimpleTexturingShader.fsh build/Debug-iphoneos/DynamicTextures.app/SimpleTexturingShader.fsh
@@ -29,20 +29,20 @@ cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/De
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../MainWindow.xib"
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/RootController.xib"
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Particle.png" Design/Particle.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/particleWithPaperTexture1.png" Design/particleWithPaperTexture1.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ParticleWithPaperTexture.png" Design/ParticleWithPaperTexture.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/pin.png" Design/pin.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/particleWithPaperTexture1.png" Design/particleWithPaperTexture1.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/exit.png" Design/exit.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/publish.png" Design/publish.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/exit.png" Design/exit.png
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/ColorPickerViewController.xib"
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/brightness.png" Design/brightness.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/wheel.png" Design/wheel.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/paperTexture1.png" Design/paperTexture1.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/wheel.png" Design/wheel.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/brightness.png" Design/brightness.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/restart.png" Design/restart.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/paperShadowHorizontal.png" Design/paperShadowHorizontal.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/paperShadowVertical.png" Design/paperShadowVertical.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/colorPicker.png" Design/colorPicker.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/paperShadowHorizontal.png" Design/paperShadowHorizontal.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowCoverBack.png" Design/FlowCoverBack.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/colorPicker.png" Design/colorPicker.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowCoverLock.png" Design/FlowCoverLock.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Lock.png" Design/Lock.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintModeBorders2.png" Design/PaintModeBorders2.png
@@ -60,10 +60,10 @@ cCopyStringsFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/buil
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/en.lproj/launchImage.png" en.lproj/launchImage.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ru.lproj/launchImage.png" ru.lproj/launchImage.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/en.lproj/FlowCoverLogo.png" en.lproj/FlowCoverLogo.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ru.lproj/FlowCoverLogo.png" ru.lproj/FlowCoverLogo.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/bookCoverBg.png" Design/bookCoverBg.png
-cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/BookPurchaseViewController.xib"
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ru.lproj/FlowCoverLogo.png" ru.lproj/FlowCoverLogo.png
 cCpResource Fonts/ExposureCThree.ttf build/Debug-iphoneos/DynamicTextures.app/ExposureCThree.ttf
+cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/BookPurchaseViewController.xib"
 cCpResource Fonts/ExposureCTwo.ttf build/Debug-iphoneos/DynamicTextures.app/ExposureCTwo.ttf
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/StoreBackButton.png" Design/StoreBackButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/StoreBg.png" Design/StoreBg.png
@@ -88,37 +88,37 @@ cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/E
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/EditorPaintingView.xib"
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/lineWithPaperTexture2.png" lineWithPaperTexture2.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/lineWithPaperTexture.png" lineWithPaperTexture.png
+cCpResource ggg3.mp4 build/Debug-iphoneos/DynamicTextures.app/ggg3.mp4
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/particleWithPaperTexture32.png" particleWithPaperTexture32.png
 cCpResource Sounds build/Debug-iphoneos/DynamicTextures.app/Sounds
-cCpResource ggg3.mp4 build/Debug-iphoneos/DynamicTextures.app/ggg3.mp4
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/paper2.png" paper2.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/highlight.png" Design/Pencils/highlight.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/circle.png" circle.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/highlight.png" Design/Pencils/highlight.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/group2.png" group2.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/group3.png" group3.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/star.png" star.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CircleWithHalo.png" CircleWithHalo.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CircleHaloInv.png" CircleHaloInv.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/star.png" star.png
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PaintImageController.xib"
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CircleHaloInv.png" CircleHaloInv.png
 cCompileXIB "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PaintingView.xib"
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorLarge.png" Slider/BrushSizeIndicator/BrushSizeIndicatorLarge.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorLarge@2x.png" Slider/BrushSizeIndicator/BrushSizeIndicatorLarge@2x.png
 cCpResource Slider/BrushSizeIndicator/BrushSizeIndicatorMedium build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorMedium
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorLarge@2x.png" Slider/BrushSizeIndicator/BrushSizeIndicatorLarge@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorMedium@2x.png" Slider/BrushSizeIndicator/BrushSizeIndicatorMedium@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorSmall.png" Slider/BrushSizeIndicator/BrushSizeIndicatorSmall.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BrushSizeIndicatorSmall@2x.png" Slider/BrushSizeIndicator/BrushSizeIndicatorSmall@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowmasterSelectedGreyNoShadow.png" Инструменты/FlowmasterSelectedGreyNoShadow.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowmasterSelectedGreyNoShadow@2x.png" Инструменты/FlowmasterSelectedGreyNoShadow@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowmasterUnselectedGreyNoShadow.png" Инструменты/FlowmasterUnselectedGreyNoShadow.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/emptySliderTrack.png" Slider/emptySliderTrack.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowmasterUnselectedGreyNoShadow.png" Инструменты/FlowmasterUnselectedGreyNoShadow.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FlowmasterUnselectedGreyNoShadow@2x.png" Инструменты/FlowmasterUnselectedGreyNoShadow@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DrawingToolsBox.png" PaintingPageTextures/DrawingToolsBox.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DrawingToolsBox@2x.png" PaintingPageTextures/DrawingToolsBox@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/EraserSelected.png" PaintingPageTextures/EraserSelected.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/EraserSelected@2x.png" PaintingPageTextures/EraserSelected@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/EraserUnselected.png" PaintingPageTextures/EraserUnselected.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ExampleButtonBg.png" PaintingPageTextures/ExampleButtonBg.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/EraserUnselected@2x.png" PaintingPageTextures/EraserUnselected@2x.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ExampleButtonBg.png" PaintingPageTextures/ExampleButtonBg.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ExampleButtonBg@2x.png" PaintingPageTextures/ExampleButtonBg@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/GalleryButton.png" PaintingPageTextures/GalleryButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/GalleryButton@2x.png" PaintingPageTextures/GalleryButton@2x.png
@@ -129,35 +129,35 @@ cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/De
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintingModeFilling.png" PaintingPageTextures/PaintingModeFilling.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintingModeFilling@2x.png" PaintingPageTextures/PaintingModeFilling@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintingModePainting.png" PaintingPageTextures/PaintingModePainting.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RestartButton.png" PaintingPageTextures/RestartButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintingModePainting@2x.png" PaintingPageTextures/PaintingModePainting@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RestartButton@2x.png" PaintingPageTextures/RestartButton@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RestartButton.png" PaintingPageTextures/RestartButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RightButton.png" PaintingPageTextures/RightButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/SelectDrawingToolButton.png" PaintingPageTextures/SelectDrawingToolButton.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/SelectDrawingToolButton@2x.png" PaintingPageTextures/SelectDrawingToolButton@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RightButton@2x.png" PaintingPageTextures/RightButton@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/thumbSlider.png" PaintingPageTextures/thumbSlider.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/SelectDrawingToolButton@2x.png" PaintingPageTextures/SelectDrawingToolButton@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/thumbSlider@2x.png" PaintingPageTextures/thumbSlider@2x.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/thumbSlider.png" PaintingPageTextures/thumbSlider.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonBg.png" PaintingPageTextures/UndoButtonBg.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonBg@2x.png" PaintingPageTextures/UndoButtonBg@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonLightOff@2x.png" PaintingPageTextures/UndoButtonLightOff@2x.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonLightOff.png" PaintingPageTextures/UndoButtonLightOff.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonLightOn.png" PaintingPageTextures/UndoButtonLightOn.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonLightOn@2x.png" PaintingPageTextures/UndoButtonLightOn@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/UndoButtonLightOff.png" PaintingPageTextures/UndoButtonLightOff.png
+cCpResource PaintingPageTextures/woodenBGWithPictures@2x.jpg build/Debug-iphoneos/DynamicTextures.app/woodenBGWithPictures@2x.jpg
 cCpResource PaintingPageTextures/woodenBGWithPictures.jpg build/Debug-iphoneos/DynamicTextures.app/woodenBGWithPictures.jpg
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/SliderBack.png" PaintingPageTextures/SliderBack.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/SliderBack@2x.png" PaintingPageTextures/SliderBack@2x.png
-cCpResource PaintingPageTextures/woodenBGWithPictures@2x.jpg build/Debug-iphoneos/DynamicTextures.app/woodenBGWithPictures@2x.jpg
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaperShadowNew.png" PaintingPageTextures/PaperShadowNew.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaperShadowNew@2x.png" PaintingPageTextures/PaperShadowNew@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ExamplePanelOverlay.png" PaintingPageTextures/ExamplePanelOverlay.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ExamplePanelOverlay@2x.png" PaintingPageTextures/ExamplePanelOverlay@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaperShadowNew@2x.png" PaintingPageTextures/PaperShadowNew@2x.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CrossButton.png" PaintingPageTextures/CrossButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CrossButton@2x.png" PaintingPageTextures/CrossButton@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BackButton.png" GalleryTextures/BackButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BackButton@2x.png" GalleryTextures/BackButton@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/CrossButton.png" PaintingPageTextures/CrossButton.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/GalleryBookCover.png" GalleryTextures/GalleryBookCover.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/GalleryBookCover@2x.png" GalleryTextures/GalleryBookCover@2x.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/GalleryBookCover.png" GalleryTextures/GalleryBookCover.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintedPageSetupButton.png" GalleryTextures/PaintedPageSetupButton.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PaintedPageSetupButton@2x.png" GalleryTextures/PaintedPageSetupButton@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/PressAndHoldEN.png" GalleryTextures/PressAndHoldEN.png
@@ -172,8 +172,8 @@ cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/De
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/MusicOFF@2x.png" BookSelectPageTextures/MusicOFF@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/MusicON.png" BookSelectPageTextures/MusicON.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/MusicON@2x.png" BookSelectPageTextures/MusicON@2x.png
-cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Polka@2x.png" BookSelectPageTextures/Polka@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Polka.png" BookSelectPageTextures/Polka.png
+cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Polka@2x.png" BookSelectPageTextures/Polka@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Price.png" BookSelectPageTextures/Price.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/Price@2x.png" BookSelectPageTextures/Price@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RightShadow.png" BookSelectPageTextures/RightShadow.png
@@ -183,10 +183,12 @@ cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/De
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RainbowTool@2x.png" PaintingPageTextures/RainbowTool@2x.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RainbowToolIndicator.png" PaintingPageTextures/RainbowToolIndicator.png
 cCopyPNGFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/RainbowToolIndicator@2x.png" PaintingPageTextures/RainbowToolIndicator@2x.png
-cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-daxgnxbaiezubpeoxfssulfakgtf/DynamicTextures_Prefix.pch.pth DynamicTextures_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-fkhixxivtcnwozaieznjkecgtlbe/DynamicTextures_Prefix.pch.pth DynamicTextures_Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-daxgnxbaiezubpeoxfssulfakgtf/DynamicTextures_Prefix.pch.pth DynamicTextures_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FlowCoverView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/FlowCoverView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingToolsBox.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawingToolsBox.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/matrix.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../matrix.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Mathematics.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Mathematics.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/main.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/main.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/KidsPaintAppDelegate.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/KidsPaintAppDelegate.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/RootController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/RootController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -199,44 +201,42 @@ cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/ar
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Book.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Book.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SavedUserData.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/SavedUserData.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FlowCoverRecord.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/FlowCoverRecord.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FlowCoverView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/FlowCoverView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DataCache.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/DataCache.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ColorShower.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/ColorShower.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BookManager.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/BookManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Page.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Page.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BookPurchaseViewController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/BookPurchaseViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PagingScrollView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PagingScrollView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BrushSizeSlider.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/BrushSizeSlider.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PagingScrollView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PagingScrollView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PictureShower.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PictureShower.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MindGamePaintImageController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/MindGamePaintImageController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MindGamePaintingView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/MindGamePaintingView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EditorPaintImageController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/EditorPaintImageController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EditorPaintingView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/EditorPaintingView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SoundManager.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/SoundManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingTool.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawingTool.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingToolsBox.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawingToolsBox.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/InterfaceManager.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../InterfaceManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingToolExtended.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawingToolExtended.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Painting.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Painting.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Animation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Animation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FillingAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/FillingAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Mathematics.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Mathematics.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/StarAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/StarAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintImageController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PaintImageController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FillingAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/FillingAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintImageView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PaintImageView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintingView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PaintingView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Pencil.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Pencil.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SilhuetteView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/SilhuetteView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ShadingAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/ShadingAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SilhuetteView.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/SilhuetteView.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ResourceManager.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/ResourceManager.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GalleryAsInPaper.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/GalleryAsInPaper.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Sheet.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Sheet.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/AcceleratedAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/AcceleratedAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Sheet.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Sheet.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ThreeDAnimation.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/ThreeDAnimation.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GLButton.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/GLButton.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EraserPlusUndo.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/EraserPlusUndo.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GalleryForColoredPics.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/GalleryForColoredPics.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EraserPlusUndo.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/EraserPlusUndo.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SheetColored.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/SheetColored.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Texture.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/Texture.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PVRTexture.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/PVRTexture.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -3523,9 +3523,9 @@ t1336128803
 s1393
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawBrushLineShader.fsh
-c000000004F67010A0000000000000438
-t1332150538
-s1080
+c00000000501AE9B3000000000000042B
+t1343941043
+s1067
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawBrushLineShader.vsh
 c000000004F66FF7F00000000000001A8
@@ -3558,9 +3558,9 @@ t1334589091
 s390
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../FinalPictureShader.fsh
-c000000004FC12A270000000000000351
-t1338059303
-s849
+c00000000501AE7BA000000000000038A
+t1343940538
+s906
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../FinalPictureShader.vsh
 c000000004F708ED2000000000000026F
@@ -3598,9 +3598,9 @@ t1340709379
 s3094
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m
-c000000004FF42EC1000000000001D662
-t1341402817
-s120418
+c00000000501AE8BC000000000001D672
+t1343940796
+s120434
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../ShadingShader.fsh
 c000000004FBBAFEE00000000000001C1
@@ -4802,11 +4802,11 @@ t1339665563
 s340
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app
-t1343937984
+t1343940943
 s5882
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM
-t1343937982
+t1343940939
 s102
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/BackButton.png
@@ -4890,8 +4890,8 @@ t1343937963
 s1870
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh
-t1343937959
-s1080
+t1343940939
+s914
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.vsh
 t1343937959
@@ -4906,7 +4906,7 @@ t1343937973
 s328641
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures
-t1343937984
+t1343940943
 s858416
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/EditorPaintImageController.nib
@@ -4966,8 +4966,8 @@ t1343937959
 s390
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh
-t1343937959
-s849
+t1343940539
+s906
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.vsh
 t1343937959
@@ -6294,63 +6294,63 @@ t1343937982
 s422
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ANColorPicker.o
-t1343937979
+t1343938048
 s94368
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ANImageBitmapRep.o
-t1343937979
+t1343938049
 s32692
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/AcceleratedAnimation.o
-t1343937981
+t1343938051
 s3752
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Animation.o
-t1343937981
+t1343938050
 s19212
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Book.o
-t1343937979
+t1343938049
 s20964
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BookManager.o
-t1343937979
+t1343938049
 s21864
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BookPurchaseViewController.o
-t1343937980
+t1343938049
 s116852
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/BrushSizeSlider.o
-t1343937979
+t1343938049
 s77328
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ColorPickerViewController.o
-t1343937979
+t1343938048
 s91508
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ColorShower.o
-t1343937979
+t1343938049
 s78176
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Constants.o
-t1343937979
+t1343938048
 s2536
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DataCache.o
-t1343937979
+t1343938049
 s10852
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingTool.o
-t1343937980
+t1343938050
 s107052
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingToolExtended.o
-t1343937980
+t1343938050
 s42668
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DrawingToolsBox.o
-t1343937980
+t1343938050
 s100168
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DynamicTextures.LinkFileList
@@ -6359,43 +6359,43 @@ t1343937959
 s8333
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EditorPaintImageController.o
-t1343937980
+t1343938050
 s149540
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EditorPaintingView.o
-t1343937980
+t1343938049
 s78964
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/EraserPlusUndo.o
-t1343937982
+t1343938051
 s49976
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FillingAnimation.o
-t1343937981
+t1343938050
 s24308
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FlowCoverRecord.o
-t1343937979
+t1343938049
 s7120
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/FlowCoverView.o
-t1343937979
+t1343938049
 s107372
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GLButton.o
-t1343937982
+t1343938051
 s34456
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GalleryAsInPaper.o
-t1343937981
+t1343938051
 s46884
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/GalleryForColoredPics.o
-t1343937982
+t1343938051
 s60016
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/InterfaceManager.o
-t1343937981
+t1343938051
 s268692
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/KidsPaint.LinkFileList
@@ -6404,127 +6404,127 @@ t1341404841
 s9509
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/KidsPaintAppDelegate.o
-t1343937979
+t1343938049
 s128520
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MKStoreManager.o
-t1343937979
+t1343938049
 s112560
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MKStoreObserver.o
-t1343937979
+t1343938049
 s81772
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Mathematics.o
-t1343937978
+t1343938048
 s4864
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MindGamePaintImageController.o
-t1343937980
+t1343938049
 s142836
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/MindGamePaintingView.o
-t1343937980
+t1343938049
 s78992
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLView.o
-t1343937980
+t1343938050
 s72992
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o
-t1343937981
-s268100
+t1343940798
+s267460
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PVRTexture.o
-t1343937982
+t1343938051
 s20428
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Page.o
-t1343937979
+t1343938049
 s14028
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PagingScrollView.o
-t1343937979
+t1343938049
 s72064
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintImageController.o
-t1343937981
+t1343938051
 s184764
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintImageView.o
-t1343937981
+t1343938051
 s79260
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Painting.o
-t1343937981
+t1343938051
 s134456
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PaintingView.o
-t1343937981
+t1343938051
 s150136
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Pencil.o
-t1343937981
+t1343938051
 s84480
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PictureShower.o
-t1343937979
+t1343938049
 s94184
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/RainbowTool.o
-t1343937982
+t1343938051
 s32192
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ResourceManager.o
-t1343937982
+t1343938051
 s112844
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/RootController.o
-t1343937979
+t1343938049
 s140280
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SavedUserData.o
-t1343937979
+t1343938049
 s13760
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ShadingAnimation.o
-t1343937981
+t1343938051
 s8496
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Sheet.o
-t1343937981
+t1343938051
 s37932
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SheetColored.o
-t1343937982
+t1343938051
 s43112
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SilhuetteView.o
-t1343937981
+t1343938051
 s83140
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/SoundManager.o
-t1343937980
+t1343938050
 s23072
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/StarAnimation.o
-t1343937981
+t1343938050
 s15692
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/Texture.o
-t1343937982
+t1343938051
 s7732
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/ThreeDAnimation.o
-t1343937982
+t1343938051
 s43948
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/main.o
-t1343937978
+t1343938048
 s3956
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/matrix.o
-t1343937978
+t1343938048
 s14720
 
 N/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/circle.png
@@ -6698,8 +6698,8 @@ t1336832335
 s13810
 
 N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-daxgnxbaiezubpeoxfssulfakgtf/DynamicTextures_Prefix.pch.pth
-t2
-s0
+t1343938048
+s4921560
 
 N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-dpqshwnbiertqhbcpxqinaezkzpt/DynamicTextures_Prefix.pch.pth
 t2
@@ -6710,8 +6710,8 @@ t2
 s0
 
 N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-fkhixxivtcnwozaieznjkecgtlbe/DynamicTextures_Prefix.pch.pth
-t2
-s0
+t1343938048
+s67940
 
 N/var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/KidsPaint_Prefix-aeuljvbmvpsedphadwmjukzsqcxm/KidsPaint_Prefix.pch.pth
 t1340719918
@@ -7101,7 +7101,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies19388c7f15cbb541^0760278015cbb541^---0#1#0#--18"Check dependencies36"1BC3DDA1-4BF0-45C2-AF84-39381436C785-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies431a953321cbb541^008f9c3321cbb541^---0#1#0#--18"Check dependencies36"AF3D0B76-082B-49D4-AD58-63B8ECE35DE8-
 
 CCodeSign "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app"
 s365630038.400202
@@ -7112,12 +7112,13 @@ x/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"CodeSign build/Debug-iphoneos/KidsPaint.app408a665612cbb541^a050eb5712cbb541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/build/Debug-iphoneos/KidsPaint.app/0000000000000000^986"CodeSign build/Debug-iphoneos/KidsPaint.app    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv CODESIGN_ALLOCATE /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a62b54aa9e95d6a247fb826193bf939d01551f5c "--resource-rules=/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app/ResourceRules.plist" --entitlements "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/KidsPaint.xcent" "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app"36"A42691D6-34F2-4B7B-9F8F-91770A86F53C-
 
 CCodeSign "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"
-s365630852.293460
-e365630853.750803
+s365633844.215598
+e365633847.707471
 r1
 xCodeSign
 x/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CodeSign build/Debug-iphoneos/DynamicTextures.app7e354b8415cbb541^f434c08515cbb541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/0000000000000000^926"CodeSign build/Debug-iphoneos/DynamicTextures.app    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv CODESIGN_ALLOCATE /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a62b54aa9e95d6a247fb826193bf939d01551f5c "--resource-rules=/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ResourceRules.plist" --entitlements "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures.xcent" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"88DB261C-EF0A-4718-9B55-0ECA7FD35ECE-
+o/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"CodeSign build/Debug-iphoneos/DynamicTextures.app9643373421cbb541^8a1db53721cbb541^-128"/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/0000000000000000^926"CodeSign build/Debug-iphoneos/DynamicTextures.app    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv CODESIGN_ALLOCATE /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a62b54aa9e95d6a247fb826193bf939d01551f5c "--resource-rules=/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/ResourceRules.plist" --entitlements "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures.xcent" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"4D781E5E-0156-4D95-81DA-DD267BE22E00-
 
 CCodeSign "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/KidsPaint.app"
 r0
@@ -8069,8 +8070,8 @@ o1 warning generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/../OpenGLViewController.mebc7d65312cbb541^9e7d995412cbb541^-489"/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/../OpenGLViewController.m:50:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation OpenGLViewController                ^/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/OpenGLViewController.h:89:1: note: method definition for 'processNewPageNumber:' not found- (void)processNewPageNumber:(NSNumber *)newpagenumber;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-365630036#18446744073709551615#0#1(2@55"Method definition for 'processNewPageNumber:' not found-365630036#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@127"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/OpenGLViewController.h0000000000000000^88#0#88#0#2703#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@127"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/OpenGLViewController.m0000000000000000^49#16#49#16#1150#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@138"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/Classes/../OpenGLViewController.m0000000000000000^3843"CompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o Classes/../OpenGLViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/KidsPaint-generated-files.hmap" "-I/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/KidsPaint-own-target-headers.hmap" "-I/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/KidsPaint-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/KidsPaint-project-headers.hmap" "-I/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/libxml2 "-I/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources" "-F/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/KidsPaint_Prefix-gwasqzemqftdghfumfjqcjyvzfpe/KidsPaint_Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.d" --serialize-diagnostics "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.dia" -c "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/../OpenGLViewController.m" -o "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o"36"91CC53E5-2322-4E13-BD2D-BCE927D445EA-
 
 CCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s365630849.919824
-e365630850.771483
+s365633598.105847
+e365633598.858977
 r1
 xCompileC
 xbuild/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o
@@ -8086,7 +8087,7 @@ o/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/OpenGLViewController.
 o- (void)processNewPageNumber:(NSNumber *)newpagenumber;
 o^
 o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m68aeeb8115cbb541^b4e9c88215cbb541^-447"/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m:50:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation OpenGLViewController                ^/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/OpenGLViewController.h:89:1: note: method definition for 'processNewPageNumber:' not found- (void)processNewPageNumber:(NSNumber *)newpagenumber;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-365630850#18446744073709551615#0#1(2@55"Method definition for 'processNewPageNumber:' not found-365630850#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/OpenGLViewController.h0000000000000000^88#0#88#0#2703#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/OpenGLViewController.m0000000000000000^49#16#49#16#1150#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/Classes/../OpenGLViewController.m0000000000000000^3606"CompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o Classes/../OpenGLViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/libxml2 "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-daxgnxbaiezubpeoxfssulfakgtf/DynamicTextures_Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.dia" -c "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m" -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o"36"4BCE3BEF-B873-4A0E-8D59-8E5F4B8DF3AE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m404f1b3e20cbb541^cde4db3e20cbb541^-447"/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m:50:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation OpenGLViewController                ^/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/OpenGLViewController.h:89:1: note: method definition for 'processNewPageNumber:' not found- (void)processNewPageNumber:(NSNumber *)newpagenumber;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-365633598#18446744073709551615#0#1(2@55"Method definition for 'processNewPageNumber:' not found-365633598#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/OpenGLViewController.h0000000000000000^88#0#88#0#2703#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@100"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/OpenGLViewController.m0000000000000000^49#16#49#16#1150#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/Classes/../OpenGLViewController.m0000000000000000^3606"CompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o Classes/../OpenGLViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.2 -iquote "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-generated-files.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-own-target-headers.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-all-target-headers.hmap" -iquote "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DynamicTextures-project-headers.hmap" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/include" -I/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/libxml2 "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources/armv7" "-I/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/DerivedSources" "-F/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" -include /var/folders/nx/sdfmhpvj2bngrshdrypkjk1m0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DynamicTextures_Prefix-daxgnxbaiezubpeoxfssulfakgtf/DynamicTextures_Prefix.pch -MMD -MT dependencies -MF "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.d" --serialize-diagnostics "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.dia" -c "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../OpenGLViewController.m" -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/OpenGLViewController.o"36"9097ECE4-B924-41C6-92A9-584A5CAB0837-
 
 CCompileC build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/PVRTexture.o "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/PVRTexture.m" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s365630037.718035
@@ -12350,13 +12351,13 @@ xbuild/Debug-iphoneos/KidsPaint.app/BasicLightingShader.vsh
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/KidsPaint.app/BasicLightingShader.vsha7e8cc3d12cbb541^4775da3d12cbb541^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/build/Debug-iphoneos/KidsPaint.app/BasicLightingShader.vsh0000000000000000^737"CpResource Classes/../BasicLightingShader.vsh build/Debug-iphoneos/KidsPaint.app/BasicLightingShader.vsh    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/../BasicLightingShader.vsh" "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app"36"DF5C0C8D-695E-4E14-B66B-A722E33CA9EF-
 
 CCpResource Classes/../DrawBrushLineShader.fsh build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh
-s365630759.534257
-e365630759.538046
+s365633843.685363
+e365633843.697407
 r1
 xCpResource
 xClasses/../DrawBrushLineShader.fsh
 xbuild/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh19e6882715cbb541^d3be892715cbb541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh000000000080d041^686"CpResource Classes/../DrawBrushLineShader.fsh build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawBrushLineShader.fsh" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"0B5D5404-DE9F-4556-87A7-F9D7C2F79896-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fshce8baf3321cbb541^618ab23321cbb541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh0000000000000000^686"CpResource Classes/../DrawBrushLineShader.fsh build/Debug-iphoneos/DynamicTextures.app/DrawBrushLineShader.fsh    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../DrawBrushLineShader.fsh" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"7D78CB05-370A-4B70-8E50-4FC1C9FEF41F-
 
 CCpResource Classes/../DrawBrushLineShader.fsh build/Debug-iphoneos/KidsPaint.app/DrawBrushLineShader.fsh
 s365630013.860643
@@ -12422,13 +12423,13 @@ xbuild/Debug-iphoneos/KidsPaint.app/FillingShader.vsh
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/KidsPaint.app/FillingShader.vshd78ae23d12cbb541^9ab2ef3d12cbb541^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/build/Debug-iphoneos/KidsPaint.app/FillingShader.vsh0000000000000000^719"CpResource Classes/../FillingShader.vsh build/Debug-iphoneos/KidsPaint.app/FillingShader.vsh    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/Classes/../FillingShader.vsh" "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app"36"37D4E997-3D7D-4080-88F5-9D3656712158-
 
 CCpResource Classes/../FinalPictureShader.fsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh
-s365630759.541498
-e365630759.544552
+s365633339.239937
+e365633339.258013
 r1
 xCpResource
 xClasses/../FinalPictureShader.fsh
 xbuild/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh41b88a2715cbb541^23698b2715cbb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh000000000080d041^683"CpResource Classes/../FinalPictureShader.fsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../FinalPictureShader.fsh" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"806C572A-8407-4062-87B5-819C93B22E76-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh8b893d3b1fcbb541^19c9423b1fcbb541^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh0000000000000000^683"CpResource Classes/../FinalPictureShader.fsh build/Debug-iphoneos/DynamicTextures.app/FinalPictureShader.fsh    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/Classes/../FinalPictureShader.fsh" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"7D554034-4F8E-4F51-9D4E-F1E004A12EE3-
 
 CCpResource Classes/../FinalPictureShader.fsh build/Debug-iphoneos/KidsPaint.app/FinalPictureShader.fsh
 s365630013.913134
@@ -12854,13 +12855,13 @@ x/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Generating /Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app.dSYM9a95115612cbb541^caa7475612cbb541^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Seify/Desktop/Aplica's%20projects/Let's%20Colour/OpenGL%202.0%20Engine/IPad%20App/build/Debug-iphoneos/KidsPaint.app.dSYM/0000000000000000^746"GenerateDSYMFile build/Debug-iphoneos/KidsPaint.app.dSYM build/Debug-iphoneos/KidsPaint.app/KidsPaint    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app/KidsPaint" -o "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app.dSYM"36"E62DDC8C-660A-47C5-BA89-A18CDF0FD20D-
 
 CGenerateDSYMFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures"
-s365630852.049142
-e365630852.183112
+s365633843.803890
+e365633844.125971
 r1
 xGenerateDSYMFile
 x/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM
 x/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Generating /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM81b30c8415cbb541^54e22e8415cbb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app.dSYM/0000000000000000^719"GenerateDSYMFile build/Debug-iphoneos/DynamicTextures.app.dSYM build/Debug-iphoneos/DynamicTextures.app/DynamicTextures    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures" -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM"36"09E4AAEA-8988-4AF2-9FAA-AEA70F4C553E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Generating /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM72dccd3321cbb541^2d3f203421cbb541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/Seify/Desktop/My%20Projects/DynamicTextures/IPad%20App/build/Debug-iphoneos/DynamicTextures.app.dSYM/0000000000000000^719"GenerateDSYMFile build/Debug-iphoneos/DynamicTextures.app.dSYM build/Debug-iphoneos/DynamicTextures.app/DynamicTextures    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures" -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app.dSYM"36"E0F4F1BB-39CA-476D-A322-F43DBDDAD164-
 
 CGenerateDSYMFile "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/KidsPaint.app.dSYM" "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/KidsPaint.app/KidsPaint"
 r0
@@ -12876,14 +12877,14 @@ xarmv7
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app/KidsPaintab42eb5512cbb541^91d30f5612cbb541^---0#0#0#--1579"Ld build/Debug-iphoneos/KidsPaint.app/KidsPaint normal armv7    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos" "-F/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos" -filelist "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/KidsPaint.LinkFileList" -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.2 -framework MediaPlayer -framework AVFoundation -framework MessageUI -framework CoreText -lz -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -lxml2 -framework CFNetwork -licucore -lsqlite3.0 -framework MobileCoreServices -framework CoreLocation -framework SystemConfiguration -framework StoreKit -framework ImageIO -o "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app/KidsPaint"36"BDFEE5A1-9BFA-4C81-9FDA-DFAC26FB45D0-
 
 CLd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures" normal armv7
-s365630851.952241
-e365630852.042589
+s365633598.865950
+e365633598.968064
 r1
 xLd
 x/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures5beff38315cbb541^e6e70a8415cbb541^---0#0#0#--1504"Ld build/Debug-iphoneos/DynamicTextures.app/DynamicTextures normal armv7    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" "-F/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" -filelist "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DynamicTextures.LinkFileList" -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.2 -framework MediaPlayer -framework AVFoundation -framework MessageUI -framework CoreText -lz -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -lxml2 -framework CFNetwork -licucore -lsqlite3.0 -framework MobileCoreServices -framework CoreLocation -framework SystemConfiguration -framework StoreKit -framework ImageIO -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures"36"2AF44AC4-9AB6-494A-A33C-C1B97C1E90F2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTexturesfad4dd3e20cbb541^95d6f73e20cbb541^---0#0#0#--1504"Ld build/Debug-iphoneos/DynamicTextures.app/DynamicTextures normal armv7    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode45-DP3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk "-L/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" "-F/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos" -filelist "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/KidsPaint.build/Debug-iphoneos/KidsPaint.build/Objects-normal/armv7/DynamicTextures.LinkFileList" -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.2 -framework MediaPlayer -framework AVFoundation -framework MessageUI -framework CoreText -lz -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -lxml2 -framework CFNetwork -licucore -lsqlite3.0 -framework MobileCoreServices -framework CoreLocation -framework SystemConfiguration -framework StoreKit -framework ImageIO -o "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app/DynamicTextures"36"D72CE77D-80A5-449F-8CBE-F931B161EEF3-
 
 CLd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/KidsPaint.app/KidsPaint" normal armv7
 r0
@@ -13182,12 +13183,12 @@ x/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app42b04e5612cbb541^698a505612cbb541^---0#0#0#--467"Touch build/Debug-iphoneos/KidsPaint.app    cd "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Seify/Desktop/Aplica's projects/Let's Colour/OpenGL 2.0 Engine/IPad App/build/Debug-iphoneos/KidsPaint.app"36"FEFD06DE-3CA7-481D-838A-8A0FFFA75105-
 
 CTouch "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"
-s365630852.230404
-e365630852.275680
+s365633844.151729
+e365633844.199181
 r1
 xTouch
 x/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Touch /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app44143b8415cbb541^64226d8415cbb541^---0#0#0#--437"Touch build/Debug-iphoneos/DynamicTextures.app    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"1367FD98-DEFD-44FA-A4FB-20453B814957-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Touch /Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app5bec263421cbb541^19ff323421cbb541^---0#0#0#--437"Touch build/Debug-iphoneos/DynamicTextures.app    cd "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App"    setenv PATH "/Applications/Xcode45-DP3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode45-DP3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/DynamicTextures.app"36"DA91B1A5-B541-4C7B-99DF-F9CA74E8D5F7-
 
 CTouch "/Users/Seify/Desktop/My Projects/DynamicTextures/IPad App/build/Debug-iphoneos/KidsPaint.app"
 r0

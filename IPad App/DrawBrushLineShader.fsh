@@ -21,15 +21,16 @@ void main()
 {
     vec4 bgImageColor = texture2D(texture, areaTexCoords);
     vec4 brushTextureColor = texture2D(brushTexture, fTexCoords);
-//    if (brushTextureColor.a == 0.0) discard; //дорогая операция, понижает fps
-//    if (fTexCoords.x < 0.05 || fTexCoords.x > 0.95 || fTexCoords.y < 0.05 || fTexCoords.y > 0.95 ) {
-//        gl_FragColor = vec4 (1.0, 0.0, 0.0, 1.0);
-//    } else {
     
-        gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a) * step(abs(bgImageColor.a-currentArea), 0.0001);
-//        gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a);
+//    gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a) * step(abs(bgImageColor.a-currentArea), 0.0001);
 
+    gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a);
     
-    //    }
+    // Dynamic texture depending on brush tex coords
+    gl_FragColor = vec4 (fTexCoords.x, fTexCoords.y, 0.0, brushTextureColor.a);
+    
+    // Dynamic texture depending on picture tex coords
+    gl_FragColor = vec4 (areaTexCoords.x, areaTexCoords.y, 0.0, brushTextureColor.a);
+
     
 }

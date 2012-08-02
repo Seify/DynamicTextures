@@ -351,7 +351,7 @@
 		B126C81014BEBFC90014FF0D /* BrushSizeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrushSizeSlider.h; sourceTree = "<group>"; };
 		B126C81114BEBFC90014FF0D /* BrushSizeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrushSizeSlider.m; sourceTree = "<group>"; };
 		B12CE007150F48B800E9CE3F /* DrawBrushLineShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DrawBrushLineShader.vsh; sourceTree = "<group>"; };
-		B12CE00A150F48C600E9CE3F /* DrawBrushLineShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DrawBrushLineShader.fsh; sourceTree = "<group>"; };
+		B12CE00A150F48C600E9CE3F /* DrawBrushLineShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DrawBrushLineShader.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		B130C14C151347B4005D4AF7 /* particleWithPaperTexture32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleWithPaperTexture32.png; sourceTree = "<group>"; };
 		B131DA4414DADCFA00F34934 /* metabook0page4 */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = metabook0page4; sourceTree = "<group>"; };
 		B131DA4614DADEF000F34934 /* MindGamePaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindGamePaintingView.h; sourceTree = "<group>"; };

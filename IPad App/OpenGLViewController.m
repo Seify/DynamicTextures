@@ -2186,12 +2186,12 @@
         }
 
         if ([self.interfaceManager shouldDrawInterfaceElement:INTERFACE_ELEMENT_PAINTING]) {
-            if ([self.interfaceManager.painting shouldPlayAnimation:self.interfaceManager.painting.shadowing] &&
-                self.interfaceManager.painting.shadowing.alpha > 0.0){
-                [self drawPictureWithShading];
-            } else {
+//            if ([self.interfaceManager.painting shouldPlayAnimation:self.interfaceManager.painting.shadowing] &&
+//                self.interfaceManager.painting.shadowing.alpha > 0.0){
+//                [self drawPictureWithShading];
+//            } else {
                 [self drawPicture];
-            }
+//            }
         }
         
         if ([self.interfaceManager shouldDrawInterfaceElement:INTERFACE_ELEMENT_GALLERY])

@@ -22,5 +22,7 @@ void main()
     vec4 paperColor = texture2D(paperTexture, fTexCoords);
 
 // вариант без затенения / осветления
-    gl_FragColor = vec4(paperColor.rgb * bgImageColor.rgb - drawingColor.rgb, 1.0);
+//    gl_FragColor = vec4(paperColor.rgb * bgImageColor.rgb - drawingColor.rgb, 1.0);
+
+    gl_FragColor = vec4(1.0 - drawingColor.rgb, 1.0);
 }
