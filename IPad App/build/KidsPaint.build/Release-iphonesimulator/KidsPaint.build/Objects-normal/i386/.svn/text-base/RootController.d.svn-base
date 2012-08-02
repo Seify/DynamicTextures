@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/RootController.m \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/RootController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/FlowCoverView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/DataCache.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/BookManager.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/Book.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/Page.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/Store/MKStoreManager.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/Store/MKStoreObserver.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/KidsPaintAppDelegate.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/SavedUserData.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/PaintImageController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/PaintImageView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/PaintingView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/ColorPickerViewController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/ANColorPicker.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/ANImageBitmapRep.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/SilhuetteView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/ColorShower.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/Pencil.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/UIImageResizingClass.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/BookPurchaseViewController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/BookScroller.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/PagingScrollView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/PictureShower.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/EditorPaintImageController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/Classes/../OpenGLViewController.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/OpenGLView.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/ModelDataStructures.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/PlainWithPattern.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/PlainsManager.h \
+  /Users/Seify/Desktop/Aplica's\ projects/Let's\ Colour/2.0\ (new\ engine)/Aplica.KidsPaint/IPad\ App/PlainDetailsTableViewController.h

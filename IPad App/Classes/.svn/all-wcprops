@@ -1,0 +1,755 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes
+END
+BookPurchaseViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Aplica.KidsPaint/!svn/ver/195/OpenGL%202.0%20Engine/IPad%20App/Classes/BookPurchaseViewController.m
+END
+FillingAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/150/OpenGL%202.0%20Engine/IPad%20App/Classes/FillingAnimation.m
+END
+Book.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Book.h
+END
+RootController.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/RootController.m
+END
+AcceleratedAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/AcceleratedAnimation.h
+END
+GalleryForColoredPics.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryForColoredPics.h
+END
+Book.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Book.m
+END
+BookScroller.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/BookScroller.h
+END
+SilhuetteView.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/SilhuetteView.h
+END
+FlowCoverView.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/FlowCoverView.h
+END
+MindGamePaintingView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintingView.xib
+END
+AcceleratedAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/106/OpenGL%202.0%20Engine/IPad%20App/Classes/AcceleratedAnimation.m
+END
+GalleryForColoredPics.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryForColoredPics.m
+END
+BookScroller.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/BookScroller.m
+END
+SilhuetteView.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/91/OpenGL%202.0%20Engine/IPad%20App/Classes/SilhuetteView.m
+END
+FlowCoverView.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/FlowCoverView.m
+END
+Pencil.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Pencil.h
+END
+ThreeDAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/151/OpenGL%202.0%20Engine/IPad%20App/Classes/ThreeDAnimation.h
+END
+metabook0page4
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/metabook0page4
+END
+AnimationConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Aplica.KidsPaint/!svn/ver/204/OpenGL%202.0%20Engine/IPad%20App/Classes/AnimationConstants.h
+END
+Pencil.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Aplica.KidsPaint/!svn/ver/81/OpenGL%202.0%20Engine/IPad%20App/Classes/Pencil.m
+END
+ThreeDAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/204/OpenGL%202.0%20Engine/IPad%20App/Classes/ThreeDAnimation.m
+END
+Eraser.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Aplica.KidsPaint/!svn/ver/151/OpenGL%202.0%20Engine/IPad%20App/Classes/Eraser.h
+END
+MindGamePaintImageController.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintImageController.h
+END
+Eraser.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Aplica.KidsPaint/!svn/ver/202/OpenGL%202.0%20Engine/IPad%20App/Classes/Eraser.m
+END
+MindGamePaintImageController.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintImageController.m
+END
+Flooder.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Flooder.h
+END
+Mathematics.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/189/OpenGL%202.0%20Engine/IPad%20App/Classes/Mathematics.c
+END
+GalleryForColoredPicsConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryForColoredPicsConstants.h
+END
+GLButtonConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Aplica.KidsPaint/!svn/ver/151/OpenGL%202.0%20Engine/IPad%20App/Classes/GLButtonConstants.h
+END
+PictureShower.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PictureShower.xib
+END
+RainbowTool.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/251/OpenGL%202.0%20Engine/IPad%20App/Classes/RainbowTool.h
+END
+PaintingView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintingView.xib
+END
+Flooder.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Flooder.m
+END
+Mathematics.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Aplica.KidsPaint/!svn/ver/88/OpenGL%202.0%20Engine/IPad%20App/Classes/Mathematics.h
+END
+Texture.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Aplica.KidsPaint/!svn/ver/153/OpenGL%202.0%20Engine/IPad%20App/Classes/Texture.h
+END
+PictureShower.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PictureShower.h
+END
+RainbowTool.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/RainbowTool.m
+END
+ANImageBitmapRep.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/ANImageBitmapRep.h
+END
+Texture.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/Aplica.KidsPaint/!svn/ver/153/OpenGL%202.0%20Engine/IPad%20App/Classes/Texture.m
+END
+ColorShower.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/ColorShower.h
+END
+ResourcesConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Aplica.KidsPaint/!svn/ver/250/OpenGL%202.0%20Engine/IPad%20App/Classes/ResourcesConstants.h
+END
+PictureShower.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/PictureShower.m
+END
+EraserPlusUndoConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/Aplica.KidsPaint/!svn/ver/207/OpenGL%202.0%20Engine/IPad%20App/Classes/EraserPlusUndoConstants.h
+END
+ANImageBitmapRep.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/ANImageBitmapRep.m
+END
+ColorShower.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/ColorShower.m
+END
+Page.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Page.h
+END
+Constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/94/OpenGL%202.0%20Engine/IPad%20App/Classes/Constants.h
+END
+EraserConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/202/OpenGL%202.0%20Engine/IPad%20App/Classes/EraserConstants.h
+END
+Animation.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Aplica.KidsPaint/!svn/ver/150/OpenGL%202.0%20Engine/IPad%20App/Classes/Animation.h
+END
+BookPurchaseViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/BookPurchaseViewController.xib
+END
+Constants.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/Constants.m
+END
+UIImageResizingClass.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/195/OpenGL%202.0%20Engine/IPad%20App/Classes/UIImageResizingClass.h
+END
+Page.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/Aplica.KidsPaint/!svn/ver/203/OpenGL%202.0%20Engine/IPad%20App/Classes/Page.m
+END
+PaintImageController.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintImageController.h
+END
+ShadersEnumerations.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Aplica.KidsPaint/!svn/ver/195/OpenGL%202.0%20Engine/IPad%20App/Classes/ShadersEnumerations.h
+END
+SoundManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/SoundManager.h
+END
+Animation.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Aplica.KidsPaint/!svn/ver/151/OpenGL%202.0%20Engine/IPad%20App/Classes/Animation.m
+END
+EditorPaintImageController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintImageController.xib
+END
+BookManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/BookManager.h
+END
+UIImageResizingClass.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/195/OpenGL%202.0%20Engine/IPad%20App/Classes/UIImageResizingClass.m
+END
+PaintImageController.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintImageController.m
+END
+SoundManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/SoundManager.m
+END
+EditorPaintImageController.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintImageController.h
+END
+BookManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/BookManager.m
+END
+HardwareConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/94/OpenGL%202.0%20Engine/IPad%20App/Classes/HardwareConstants.h
+END
+ANColorPicker.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/ANColorPicker.h
+END
+DataCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/DataCache.h
+END
+EditorPaintImageController.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintImageController.m
+END
+ANColorPicker.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/ANColorPicker.m
+END
+DataCache.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/DataCache.m
+END
+GalleryAsInPaper.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryAsInPaper.h
+END
+FlowCoverRecord.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/FlowCoverRecord.h
+END
+ColorPickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/ColorPickerViewController.xib
+END
+MindGamePaintingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintingView.h
+END
+GalleryAsInPaper.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryAsInPaper.m
+END
+StarAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/89/OpenGL%202.0%20Engine/IPad%20App/Classes/StarAnimation.h
+END
+PaintImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintImageView.h
+END
+FlowCoverRecord.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/FlowCoverRecord.m
+END
+ColorPickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/ColorPickerViewController.h
+END
+MindGamePaintingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintingView.m
+END
+EraserPlusUndo.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/EraserPlusUndo.h
+END
+PaintImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintImageView.m
+END
+StarAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Aplica.KidsPaint/!svn/ver/204/OpenGL%202.0%20Engine/IPad%20App/Classes/StarAnimation.m
+END
+MindGamePaintImageController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/MindGamePaintImageController.xib
+END
+PagingScrollView.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PagingScrollView.h
+END
+ColorPickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/ColorPickerViewController.m
+END
+TexturesConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/94/OpenGL%202.0%20Engine/IPad%20App/Classes/TexturesConstants.h
+END
+EraserPlusUndo.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/EraserPlusUndo.m
+END
+ResourceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/207/OpenGL%202.0%20Engine/IPad%20App/Classes/ResourceManager.h
+END
+PagingScrollView.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PagingScrollView.m
+END
+Line.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Line.h
+END
+ResourceManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/250/OpenGL%202.0%20Engine/IPad%20App/Classes/ResourceManager.m
+END
+PVRTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/PVRTexture.h
+END
+SavedUserData.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/SavedUserData.h
+END
+Line.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/Line.m
+END
+GalleryConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/GalleryConstants.h
+END
+InterfaceConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/Aplica.KidsPaint/!svn/ver/249/OpenGL%202.0%20Engine/IPad%20App/Classes/InterfaceConstants.h
+END
+PVRTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/PVRTexture.m
+END
+GLButton.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/GLButton.h
+END
+SavedUserData.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/SavedUserData.m
+END
+GLButton.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/GLButton.m
+END
+PaintingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintingView.h
+END
+EditorPaintingView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintingView.xib
+END
+Sheet.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/Sheet.h
+END
+PaintingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/196/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintingView.m
+END
+Painting.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/204/OpenGL%202.0%20Engine/IPad%20App/Classes/Painting.h
+END
+EditorPaintingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintingView.h
+END
+PaintImageController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/Aplica.KidsPaint/!svn/ver/189/OpenGL%202.0%20Engine/IPad%20App/Classes/PaintImageController.xib
+END
+Sheet.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/Aplica.KidsPaint/!svn/ver/258/OpenGL%202.0%20Engine/IPad%20App/Classes/Sheet.m
+END
+ShadingAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/111/OpenGL%202.0%20Engine/IPad%20App/Classes/ShadingAnimation.h
+END
+Painting.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/Painting.m
+END
+EditorPaintingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/EditorPaintingView.m
+END
+SheetColored.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/249/OpenGL%202.0%20Engine/IPad%20App/Classes/SheetColored.h
+END
+BrushSizeSlider.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/207/OpenGL%202.0%20Engine/IPad%20App/Classes/BrushSizeSlider.h
+END
+KidsPaintAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/KidsPaintAppDelegate.h
+END
+RootController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/232/OpenGL%202.0%20Engine/IPad%20App/Classes/RootController.xib
+END
+ShadingAnimation.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/150/OpenGL%202.0%20Engine/IPad%20App/Classes/ShadingAnimation.m
+END
+DrawingToolsBoxConstants.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/Aplica.KidsPaint/!svn/ver/204/OpenGL%202.0%20Engine/IPad%20App/Classes/DrawingToolsBoxConstants.h
+END
+BookPurchaseViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/Aplica.KidsPaint/!svn/ver/53/OpenGL%202.0%20Engine/IPad%20App/Classes/BookPurchaseViewController.h
+END
+FillingAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Aplica.KidsPaint/!svn/ver/111/OpenGL%202.0%20Engine/IPad%20App/Classes/FillingAnimation.h
+END
+SheetColored.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Aplica.KidsPaint/!svn/ver/249/OpenGL%202.0%20Engine/IPad%20App/Classes/SheetColored.m
+END
+BrushSizeSlider.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/Aplica.KidsPaint/!svn/ver/207/OpenGL%202.0%20Engine/IPad%20App/Classes/BrushSizeSlider.m
+END
+RootController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Aplica.KidsPaint/!svn/ver/201/OpenGL%202.0%20Engine/IPad%20App/Classes/RootController.h
+END
+KidsPaintAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Aplica.KidsPaint/!svn/ver/249/OpenGL%202.0%20Engine/IPad%20App/Classes/KidsPaintAppDelegate.m
+END

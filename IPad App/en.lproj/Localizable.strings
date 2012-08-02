@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Mac on 20.12.11.
+  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+*/
+"CHOOSE_COLLOR_BUTTON_TEXT" = "Select color";
+"BUY_BUTTON_TEXT" = "Buy\n";
+"BUY_BUTTON_TEXT_NO_PRICE" = "Buy";
+"PAYMENT_RESTRICTION_ON_TITLE" = "Can't make payments";
+"PAYMENT_RESTRICTION_ON" = "Check Settings > General > Restrictions";
+"NO_INTERNET_TITLE" = "No connection";
+"NO_INTERNET" = "Check your Internet connection";
+"PRODUCT_ID_INVALID_TITLE" = "Book unavaible";
+"PRODUCT_ID_INVALID" = "Book unavaible for sale";
+"BOOK_0_TITLE" = "Fairy Tales";
+"BOOK_1_TITLE" = "Horses";
+"BOOK_2_TITLE" = "Knights";
+"BOOK_3_TITLE" = "Princess";

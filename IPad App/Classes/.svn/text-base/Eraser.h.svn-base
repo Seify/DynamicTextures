@@ -1,0 +1,70 @@
+//
+//  Eraser.h
+//  KidsPaint
+//
+//  Created by Roman Smirnov on 11.05.12.
+//  Copyright (c) 2012 Aplica. All rights reserved.
+//
+
+#import "InterfaceConstants.h"
+#import "EraserConstants.h"
+#import "ThreeDAnimation.h"
+
+@protocol EraserDelegate
+- (void)eraserBecameSelected;
+- (void)eraserBecameUnselected;
+@end
+
+@interface Eraser : NSObject
+{
+    eraserState state;
+
+    GLfloat alpha;
+    CGRect position;
+    
+    GLfloat translationX;
+    GLfloat translationY;
+    GLfloat translationZ;
+    
+    GLfloat rotationX;
+    GLfloat rotationY;
+    GLfloat rotationZ;
+    
+    GLfloat scaleX;
+    GLfloat scaleY;
+    GLfloat scaleZ;
+    
+    id <EraserDelegate> delegate;
+    
+    ThreeDAnimation *animation;
+}
+@property GLfloat alpha;
+@property CGRect position;
+
+@property GLfloat translationX;
+@property GLfloat translationY;
+@property GLfloat translationZ;
+@property GLfloat rotationX;
+@property GLfloat rotationY;
+@property GLfloat rotationZ;
+@property GLfloat scaleX;
+@property GLfloat scaleY;
+@property GLfloat scaleZ;
+
+@property (assign) id <EraserDelegate> delegate;
+
+@property (readonly) eraserState state;
+
+@property (readonly) ThreeDAnimation *animation;
+
+- (BOOL)isIntersectsWithPoint:(CGPoint)point;
+
+- (void)changeStateTo:(eraserState)newstate AtTime:(double)currtime;
+- (void)updatePhysicsAtTime:(double)currtime;
+
+- (void)touchBeganAtLocation:(CGPoint)location;
+- (void)touchMovedAtLocation:(CGPoint)location PreviousLocation:(CGPoint)previousLocation;
+- (void)touchEndedAtLocation:(CGPoint)location;
+- (void)touchesCancelledLocation:(CGPoint)location;
+
+@end

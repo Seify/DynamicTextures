@@ -1,0 +1,44 @@
+//
+//  Shader.fsh
+//  OpenGL Test
+//
+//  Created by Roman Smirnov on 09.10.11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+precision highp float;
+
+varying lowp vec4 colorVarying;
+varying highp vec2 fTexCoords;
+
+uniform float currentArea;
+uniform sampler2D texture; // ч/б изображение, которое раскрашиваем + номер зоны в альфа-канале
+uniform sampler2D drawingTexture; // то, что намалевал пользователь
+
+
+void main()
+{
+    // т.к. текстура 1024*1024, а нам нужна 560*800, вычисляем новые текстурные координаты
+    vec2 convertedTexCoords = vec2(fTexCoords.x * 560.0/1024.0, fTexCoords.y * 800.0/1024.0); 
+    
+    vec4 bgImageColor = texture2D(texture, convertedTexCoords);
+    float area = bgImageColor.a;
+    
+    
+    vec4 drawingColor = texture2D(drawingTexture, convertedTexCoords);
+    gl_FragColor = drawingColor;
+    
+    
+    
+//    vec4 drawingColor = vec4 (0.5, 0.5, 0.0, 1.0);
+
+//    if ( abs(area - 1.0) < 0.0001) { // если контур
+//        gl_FragColor = vec4(bgImageColor.rgb, 1.0);
+//    } 
+//    else if ( abs(area-currentArea/255.0) < 0.0001 ) { 
+//        gl_FragColor = vec4(drawingColor.rgb*0.85 + bgImageColor.rgb*0.15, 1.0); 
+//    } 
+//    else {
+//        gl_FragColor = vec4(bgImageColor.rgb, 1.0) * vec4(0.2, 0.2, 0.2, 1.0);        
+//    }
+}

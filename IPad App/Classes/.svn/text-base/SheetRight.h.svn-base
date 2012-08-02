@@ -1,0 +1,20 @@
+//
+//  Sheet.h
+//  KidsPaint
+//
+//  Created by Roman Smirnov on 25.04.12.
+//  Copyright (c) 2012 Aplica. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Sheet : NSObject
+{
+    float translation;
+    float rotation;
+    float scale;
+}
+@property float translation;
+@property float rotation;
+@property float scale;
+@end

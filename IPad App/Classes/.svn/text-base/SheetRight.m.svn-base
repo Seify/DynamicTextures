@@ -1,0 +1,13 @@
+//
+//  Sheet.m
+//  KidsPaint
+//
+//  Created by Roman Smirnov on 25.04.12.
+//  Copyright (c) 2012 Aplica. All rights reserved.
+//
+
+#import "Sheet.h"
+
+@implementation Sheet
+@synthesize translation, rotation, scale;
+@end

@@ -1,0 +1,20 @@
+/* 
+ Localizable.strings
+ 
+ 
+ Created by Mac on 20.12.11.
+ Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+ */
+"CHOOSE_COLLOR_BUTTON_TEXT" = "Выбрать цвет";
+"BUY_BUTTON_TEXT" = "Купить за\n";
+"BUY_BUTTON_TEXT_NO_PRICE" = "Купить";
+"PAYMENT_RESTRICTION_ON_TITLE" = "Покупки запрещены";
+"PAYMENT_RESTRICTION_ON" = "Проверьте Настройки > Основные > Ограничения";
+"NO_INTERNET_TITLE" = "Нет подключения";
+"NO_INTERNET" = "Проверьте подключение к сети Интернет";
+"PRODUCT_ID_INVALID_TITLE" = "Книга недоступна";
+"PRODUCT_ID_INVALID" = "Книга недоступна для продажи";
+"BOOK_0_TITLE" = "Герои сказок";
+"BOOK_1_TITLE" = "Лошадки";
+"BOOK_2_TITLE" = "Рыцари";
+"BOOK_3_TITLE" = "Принцессы";
