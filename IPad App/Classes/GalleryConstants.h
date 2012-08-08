@@ -1,13 +1,13 @@
 //
 //  GalleryConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 26.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_GalleryConstants_h
-#define KidsPaint_GalleryConstants_h
+#ifndef DynamicTextures_GalleryConstants_h
+#define DynamicTextures_GalleryConstants_h
 
 typedef int sheetTypeID;
 

@@ -1,6 +1,6 @@
 //
 //  DrawingToolExtended.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 05.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

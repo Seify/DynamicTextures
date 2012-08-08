@@ -1,6 +1,6 @@
 //
 //  Pencil.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 24.11.11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.

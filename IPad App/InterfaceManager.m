@@ -1,13 +1,13 @@
 //
 //  InterfaceManager.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 05.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
 #import "InterfaceManager.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "SoundManager.h"
 #import "Mathematics.h"
 #import "Constants.h"
@@ -294,7 +294,7 @@
     self.sliderImage.alpha = 0;
     [self.brushSizeSlider setEnabled:NO];
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     if (app.paintMode == paintModeSimple)
 	{
 
@@ -929,7 +929,7 @@
     if ([self shouldProcessTouchButton:BUTTON_EXIT])
     {
                     
-//        KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//        DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //        [app goBack];        
 
         [self changeStateTo:INTERFACE_STATE_SHOWING_BOOKS];
@@ -1073,7 +1073,7 @@
     }
 }
 - (void)paintModeButtonPressed{
-	KidsPaintAppDelegate* curApp = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* curApp = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
     if (curApp.paintMode == paintModeSimple)
 	{
@@ -1211,7 +1211,7 @@
 //
 //        
 //        
-//        //        KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//        //        DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //		
 //        //		if (app.paintMode != paintModeSimple)
 //        //		{
@@ -1732,7 +1732,7 @@
     
     paperShadow.alpha = 1.0;
 
-    KidsPaintAppDelegate *app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate *app = [DynamicTexturesAppDelegate SharedAppDelegate];
     if (app.paintMode == paintModeMedium){
         self.brushSizeSlider.alpha = 1;
         self.sliderImage.alpha = 1;
@@ -1962,7 +1962,7 @@
     
     paperShadow.alpha = 1.0;
     
-    KidsPaintAppDelegate *app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate *app = [DynamicTexturesAppDelegate SharedAppDelegate];
     if (app.paintMode == paintModeMedium){
         self.brushSizeSlider.alpha = 1;
         self.sliderImage.alpha = 1;
@@ -2061,7 +2061,7 @@
 	[self restoreEraser];
     
     self.drawingToolsBox.prevDrawingTool = dt;
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
     if (app.paintMode == paintModeMedium) {
         //        [self setColorCirclesColorsRed:sender.red 
@@ -2236,7 +2236,7 @@
                     break;
                 }
                 case INTERFACE_ELEMENT_TOOL_SIZE_SLIDER:{
-                    KidsPaintAppDelegate* curApp = [KidsPaintAppDelegate SharedAppDelegate];
+                    DynamicTexturesAppDelegate* curApp = [DynamicTexturesAppDelegate SharedAppDelegate];
                     if (curApp.paintMode == paintModeSimple){
                         retValue = NO;
                     } else {
@@ -2283,7 +2283,7 @@
                 }
                     
                 case INTERFACE_ELEMENT_TOOL_SIZE_SLIDER:{
-                    KidsPaintAppDelegate* curApp = [KidsPaintAppDelegate SharedAppDelegate];
+                    DynamicTexturesAppDelegate* curApp = [DynamicTexturesAppDelegate SharedAppDelegate];
                     if (curApp.paintMode == paintModeSimple){
                         retValue = NO;
                     } else {

@@ -1,6 +1,6 @@
 //
 //  Painting.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 13.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "Painting.h"
 #import "Mathematics.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "AnimationConstants.h"
 #import "SoundManager.h"
 
@@ -141,7 +141,7 @@
     #define MAX_VERTEX 1000
     #define MAX_AREAS_TO_FILL 10
         
-        KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+        DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
         
         //        NSLog(@"%@ : %@ : app.paintMode = %d)", self, NSStringFromSelector(_cmd), app.paintMode);
         
@@ -211,7 +211,7 @@
 
     [self changePictureStateToModified];    
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 
     if (app.paintMode != paintModeSimple) {
         
@@ -244,7 +244,7 @@
 
 - (void)touchEndedAtLocation:(CGPoint)location{
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     if (app.paintMode != paintModeSimple) {
         
         self.shadowing.state = ANIMATION_STATE_STOPPED;

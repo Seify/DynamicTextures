@@ -1,6 +1,6 @@
 //
 //  PaintingView.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 03.08.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "PaintingView.h"
 #import "Line.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "Constants.h"
 
 static void RGB2HSL(float r, float g, float b, float* outH, float* outS, float* outL);
@@ -320,7 +320,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size ) {
 	glEnable(GL_POINT_SPRITE_OES);
 	glTexEnvf(GL_POINT_SPRITE_OES, GL_COORD_REPLACE_OES, GL_TRUE);
 	
-//	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 //	if (app.paintMode == paintModeSimple)
 //	{
@@ -770,7 +770,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size ) {
 
 - (void)touchesBegan:(CGPoint)loc prevLoc:(CGPoint)prevLoc
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 //	UIImage* viewImage = [self imageRepresentation];
 //	[app savePreviousImage:viewImage BookNumber:self.delegate.currentBook.number PageNumber:self.delegate.currentPage.number];
@@ -871,7 +871,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size ) {
 // Handles the continuation of a touch.
 - (void)touchesMoved:(CGPoint)loc prevLoc:(CGPoint)prevLoc
 {  
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	if (app.paintMode != paintModeSimple)
 	{
@@ -908,7 +908,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size ) {
 // Handles the end of a touch event when the touch is a tap.
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	if (app.paintMode != paintModeSimple)
 	{
@@ -1038,7 +1038,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size ) {
 {
 	[self erase];
 	
-//	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //	[app saveCurrentImage:[self imageRepresentation] BookNumber:self.delegate.currentBook.number PageNumber:self.delegate.currentPage.number];
 }
 

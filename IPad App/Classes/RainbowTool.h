@@ -1,6 +1,6 @@
 //
 //  RainbowTool.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Иван Ерасов on 27.06.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ColorPickerViewController.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 08.08.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.

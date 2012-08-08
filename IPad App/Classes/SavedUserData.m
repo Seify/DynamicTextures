@@ -1,6 +1,6 @@
 //
 //  SavedUserData.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 03.10.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.

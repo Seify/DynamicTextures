@@ -1,6 +1,6 @@
 //
 //  PaintImageController.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 20.07.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
@@ -8,7 +8,7 @@
 
 
 #import "PaintImageController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "PaintImageView.h"
 #import "Constants.h"
 #import "OpenGLViewController.h"
@@ -75,7 +75,7 @@
     
 //    NSLog(@"PIC: ViewDidLoad");
 	
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app HideMainNavigationBar];
 	
 	// Erase the view when recieving a notification named "shake" from the NSNotificationCenter object
@@ -125,7 +125,7 @@
     
     [self.view addSubview:oglvc.view];
 
-//        KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+//        DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
 //        [ptr ShowController:oglvc backButtonTitle:@"Back"];
     
 	
@@ -416,7 +416,7 @@
 
 - (IBAction)paintModeButtonClicked:(id)sender
 {
-	KidsPaintAppDelegate* curApp = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* curApp = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 //	if (curApp.paintMode == paintModeHard)
 //	{
@@ -482,7 +482,7 @@
 
 - (IBAction)undo:(id)sender
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documents = [paths objectAtIndex:0];
@@ -523,7 +523,7 @@
 	float sliderValue = sender.value;
     NSInteger intValue = round(sliderValue);
 	
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	if (app.paintMode != paintModeSimple)
 	{
@@ -533,7 +533,7 @@
 
 - (IBAction)exitPaintImage:(id)sender
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
     UIImage* viewImage = [paintingView imageRepresentation];
     [app saveCurrentImage:viewImage BookNumber:self.currentBook.number PageNumber:self.currentPage.number];
@@ -552,7 +552,7 @@
 
 - (IBAction)prev:(id)sender
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app showLoadingStatus];
     
     UIImage* viewImage = [paintingView imageRepresentation];
@@ -567,7 +567,7 @@
 
 - (IBAction)next:(id)sender
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app showLoadingStatus];
     
     
@@ -605,7 +605,7 @@
 {
 
 	
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 
 //	int lastViewedPage = [[app.savedUserData getLastViewedPageNumberOfBook:@"book1"] intValue];
 //   NSString *bookname = [NSString stringWithFormat:@"book%d", self.currentBook.number];
@@ -735,7 +735,7 @@
 -(void)pickImage:(int) pickImageIndex
 {   
 //    NSLog(@"PaintImageController: start picking image");
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
@@ -844,7 +844,7 @@
 
     
  
-//    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 		
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     
@@ -1016,7 +1016,7 @@
 {
 
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
     if (app.paintMode == paintModeMedium) {
         [self setColorCirclesColorsRed:currpencil.red
@@ -1060,7 +1060,7 @@
 		[eraserButton setImage:[UIImage imageNamed:@"eraser"] forState:UIControlStateNormal];
 		eraserButton.frame = CGRectMake(eraserButton.frame.origin.x, eraserButton.frame.origin.y, 113, 123);
 		
-//		KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//		DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //		
 //		if (app.paintMode != paintModeSimple)
 //		{
@@ -1117,7 +1117,7 @@
     }
     
     prevPencil = sender;
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
     if (app.paintMode == paintModeMedium) {
         [self setColorCirclesColorsRed:sender.red 
@@ -1161,7 +1161,7 @@
 //		eraserButton.frame = CGRectMake(0, 860, 134, 104);
         eraserButton.frame = CGRectMake(eraserButton.frame.origin.x, eraserButton.frame.origin.y, 134, 104);
 			
-//		KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//		DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 		
 //		if (app.paintMode != paintModeSimple)
 //		{
@@ -1225,7 +1225,7 @@
 - (void)colorChangedWithRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue
 {
 
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     if (app.paintMode == paintModeMedium) {
         [self setColorCirclesColorsRed:red Green:green Blue:blue Alpha:1.0];
     } else {

@@ -1,6 +1,6 @@
 //
 //  Eraser.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 11.05.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

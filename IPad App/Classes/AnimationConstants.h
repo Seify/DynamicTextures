@@ -1,13 +1,13 @@
 //
 //  AnimationConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 17.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_AnimationConstants_h
-#define KidsPaint_AnimationConstants_h
+#ifndef DynamicTextures_AnimationConstants_h
+#define DynamicTextures_AnimationConstants_h
 
 enum {
     ANIMATION_STATE_PLAYING, //0

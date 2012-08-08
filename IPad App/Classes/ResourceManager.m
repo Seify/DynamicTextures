@@ -1,6 +1,6 @@
 //
 //  ResourceManager.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 23.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "ResourceManager.h"
 #import "InterfaceConstants.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "models.h"
 
 @interface ResourceManager()
@@ -1681,7 +1681,7 @@ static ResourceManager *sharedInstance = nil;
     
     if (self) {
         counterOfLoadingTextures = 0;
-        GLCommandsQueue = dispatch_queue_create("ru.Aplica.KidsPaint.GLCommandsQueue", NULL);
+        GLCommandsQueue = dispatch_queue_create("ru.Aplica.DynamicTextures.GLCommandsQueue", NULL);
         // Work your initialising magic here as you normally would
     }
     

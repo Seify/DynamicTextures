@@ -1,6 +1,6 @@
 //
 //  RootController.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 20.07.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.

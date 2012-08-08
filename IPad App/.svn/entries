@@ -60,40 +60,6 @@ smirnov
 
 359
 
-UndoButton.png
-file
-189
-
-
-
-2012-05-23T10:00:44.000000Z
-0ae8c7d67f19b6bd1843837ba7793dfa
-2012-05-26T18:38:00.498000Z
-189
-smirnov
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21211
-
 History.png
 file
 189
@@ -127,6 +93,40 @@ has-props
 
 
 37203
+
+UndoButton.png
+file
+189
+
+
+
+2012-05-23T10:00:44.000000Z
+0ae8c7d67f19b6bd1843837ba7793dfa
+2012-05-26T18:38:00.498000Z
+189
+smirnov
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21211
 
 woodenBGWithPictures@2x
 file
@@ -165,40 +165,6 @@ has-props
 Classes
 dir
 
-PencilBodyShader.fsh
-file
-82
-
-
-
-2012-04-04T13:02:04.000000Z
-50734a632a02d14ec13d7ef92b06399c
-2012-04-05T07:52:10.830000Z
-82
-smirnov
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-230
-
 woodenBGWithPictures.jpg
 file
 194
@@ -233,18 +199,17 @@ has-props
 
 176145
 
-group2.png
+PencilBodyShader.fsh
 file
-115
+82
 
 
 
-2012-04-17T12:04:18.000000Z
-a3a04714c0723875652b674d5a652d0e
-2012-05-02T16:16:51.869000Z
-115
+2012-04-04T13:02:04.000000Z
+50734a632a02d14ec13d7ef92b06399c
+2012-04-05T07:52:10.830000Z
+82
 smirnov
-has-props
 
 
 
@@ -265,7 +230,8 @@ has-props
 
 
 
-4098
+
+230
 
 Icon-72.png
 file
@@ -301,17 +267,18 @@ has-props
 
 13173
 
-PlainsManager.xib
+group2.png
 file
+115
 
 
 
-
-2012-03-06T09:49:48.000000Z
-a136294c870fbf35d49fc43d9dbd1111
-2012-03-06T10:40:48.268000Z
-53
+2012-04-17T12:04:18.000000Z
+a3a04714c0723875652b674d5a652d0e
+2012-05-02T16:16:51.869000Z
+115
 smirnov
+has-props
 
 
 
@@ -332,8 +299,7 @@ smirnov
 
 
 
-
-5901
+4098
 
 group3.png
 file
@@ -369,14 +335,14 @@ has-props
 
 3288
 
-PlainDetailsTableViewController.h
+PlainsManager.xib
 file
 
 
 
 
 2012-03-06T09:49:48.000000Z
-99db5023301cc40b553b986f72e68e7c
+a136294c870fbf35d49fc43d9dbd1111
 2012-03-06T10:40:48.268000Z
 53
 smirnov
@@ -401,7 +367,14 @@ smirnov
 
 
 
-506
+5901
+
+DynamicTextures.entitlements
+file
+0
+
+
+add
 
 RightButton@2x.png
 file
@@ -436,6 +409,40 @@ has-props
 
 
 31918
+
+PlainDetailsTableViewController.h
+file
+
+
+
+
+2012-03-06T09:49:48.000000Z
+99db5023301cc40b553b986f72e68e7c
+2012-03-06T10:40:48.268000Z
+53
+smirnov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+506
 
 PlainsManager.h
 file
@@ -990,8 +997,39 @@ has-props
 
 14078
 
-build
-dir
+TexturePlusColorChangeShader.vsh
+file
+189
+
+
+
+2012-05-25T15:40:46.000000Z
+e1115bca25d7e0dd95b7e90ffe6893d1
+2012-05-26T18:38:00.498000Z
+189
+smirnov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+290
 
 DrawBrushLineShader.vsh
 file
@@ -1027,39 +1065,8 @@ smirnov
 
 424
 
-TexturePlusColorChangeShader.vsh
-file
-189
-
-
-
-2012-05-25T15:40:46.000000Z
-e1115bca25d7e0dd95b7e90ffe6893d1
-2012-05-26T18:38:00.498000Z
-189
-smirnov
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-290
+build
+dir
 
 LeftButton@2x
 file
@@ -1367,40 +1374,6 @@ has-props
 
 42956
 
-PatternShader.fsh
-file
-61
-
-
-
-2012-03-16T13:05:06.000000Z
-514b6cdb342b22efe14c6ead4d6b1644
-2012-03-16T14:26:27.682000Z
-61
-smirnov
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1104
-
 ShadingShader.fsh
 file
 189
@@ -1435,18 +1408,17 @@ smirnov
 
 449
 
-circle.png
+PatternShader.fsh
 file
-56
+61
 
 
 
-2012-03-14T09:50:25.000000Z
-f70561f7d05f39cccc1b29b939c6e3ee
-2012-03-14T17:44:35.088000Z
-56
+2012-03-16T13:05:06.000000Z
+514b6cdb342b22efe14c6ead4d6b1644
+2012-03-16T14:26:27.682000Z
+61
 smirnov
-has-props
 
 
 
@@ -1467,7 +1439,42 @@ has-props
 
 
 
-3485
+
+1104
+
+ModelDataStructures.h
+file
+
+
+
+
+2012-03-06T09:49:48.000000Z
+4231d5719b05b82ff8b4dc7cfe584437
+2012-03-06T10:40:48.268000Z
+53
+smirnov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1009
 
 DrawingTool.m
 file
@@ -1503,17 +1510,18 @@ smirnov
 
 36460
 
-ModelDataStructures.h
+circle.png
 file
+56
 
 
 
-
-2012-03-06T09:49:48.000000Z
-4231d5719b05b82ff8b4dc7cfe584437
-2012-03-06T10:40:48.268000Z
-53
+2012-03-14T09:50:25.000000Z
+f70561f7d05f39cccc1b29b939c6e3ee
+2012-03-14T17:44:35.088000Z
+56
 smirnov
+has-props
 
 
 
@@ -1534,8 +1542,7 @@ smirnov
 
 
 
-
-1009
+3485
 
 Shader.fsh
 file
@@ -1673,16 +1680,16 @@ has-props
 
 16157
 
-BasicLightingShader.vsh
+TextureSelectTableViewController.h
 file
-119
 
 
 
-2012-05-04T10:53:23.000000Z
-7c41923a3459c96ca4bac9362c1f42d6
-2012-05-04T12:26:24.023000Z
-119
+
+2012-03-06T09:49:48.000000Z
+08ccdd840d0001f77d7bd46eb09423b8
+2012-03-06T10:40:48.268000Z
+53
 smirnov
 
 
@@ -1705,7 +1712,7 @@ smirnov
 
 
 
-1393
+477
 
 MainWindow.xib
 file
@@ -1741,16 +1748,16 @@ smirnov
 
 15991
 
-TextureSelectTableViewController.h
+BasicLightingShader.vsh
 file
+119
 
 
 
-
-2012-03-06T09:49:48.000000Z
-08ccdd840d0001f77d7bd46eb09423b8
-2012-03-06T10:40:48.268000Z
-53
+2012-05-04T10:53:23.000000Z
+7c41923a3459c96ca4bac9362c1f42d6
+2012-05-04T12:26:24.023000Z
+119
 smirnov
 
 
@@ -1773,7 +1780,7 @@ smirnov
 
 
 
-477
+1393
 
 PlainDetailsTableViewController.xib
 file
@@ -1843,18 +1850,17 @@ smirnov
 
 6299
 
-RestartButton.png
+ShadingShader.vsh
 file
-189
+74
 
 
 
-2012-05-23T10:04:20.000000Z
-2968f2516f4c43f251bed864afcb93d3
-2012-05-26T18:38:00.498000Z
-189
+2012-03-26T15:08:59.000000Z
+8997476f40e7b5a65b1e1689944b6b5b
+2012-03-26T17:35:25.668000Z
+74
 smirnov
-has-props
 
 
 
@@ -1875,7 +1881,8 @@ has-props
 
 
 
-11206
+
+799
 
 PatternShader.vsh
 file
@@ -1911,17 +1918,18 @@ smirnov
 
 468
 
-ShadingShader.vsh
+RestartButton.png
 file
-74
+189
 
 
 
-2012-03-26T15:08:59.000000Z
-8997476f40e7b5a65b1e1689944b6b5b
-2012-03-26T17:35:25.668000Z
-74
+2012-05-23T10:04:20.000000Z
+2968f2516f4c43f251bed864afcb93d3
+2012-05-26T18:38:00.498000Z
+189
 smirnov
+has-props
 
 
 
@@ -1942,42 +1950,7 @@ smirnov
 
 
 
-
-799
-
-OpenGLView.h
-file
-
-
-
-
-2012-03-06T09:49:48.000000Z
-7d00ea14e6f03664b5d445e93a2dc2b0
-2012-03-06T10:40:48.268000Z
-53
-smirnov
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-354
+11206
 
 CircleHaloInv.png
 file
@@ -2012,6 +1985,40 @@ has-props
 
 
 25957
+
+OpenGLView.h
+file
+
+
+
+
+2012-03-06T09:49:48.000000Z
+7d00ea14e6f03664b5d445e93a2dc2b0
+2012-03-06T10:40:48.268000Z
+53
+smirnov
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
 
 Shader.vsh
 file

@@ -1,13 +1,13 @@
 //
 //  GalleryForColoredPicsConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 14.05.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_GalleryForColoredPicsConstants_h
-#define KidsPaint_GalleryForColoredPicsConstants_h
+#ifndef DynamicTextures_GalleryForColoredPicsConstants_h
+#define DynamicTextures_GalleryForColoredPicsConstants_h
 
 typedef int galleryType;
 

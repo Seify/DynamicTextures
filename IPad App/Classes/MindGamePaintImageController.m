@@ -7,7 +7,7 @@
 //
 
 #import "MindGamePaintImageController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "BookManager.h"
 #import "Constants.h"
 #import "PictureShower.h"
@@ -57,7 +57,7 @@
 //    
 //    
 //    
-//    //    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//    //    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //    
 //	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 //    
@@ -132,7 +132,7 @@
     
     //    NSLog(@"PIC: ViewDidLoad");
 	
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app HideMainNavigationBar];
 	
 	// Erase the view when recieving a notification named "shake" from the NSNotificationCenter object
@@ -284,7 +284,7 @@
 
 - (IBAction)exitPaintImage:(id)sender
 {
-//	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //    
 ////    UIImage* viewImage = [paintingView imageRepresentation];
 ////    [app saveCurrentImage:viewImage BookNumber:self.currentBook.number PageNumber:self.currentPage.number];

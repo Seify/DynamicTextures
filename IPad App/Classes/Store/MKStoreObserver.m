@@ -7,7 +7,7 @@
 
 #import "MKStoreObserver.h"
 #import "MKStoreManager.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 
 @implementation MKStoreObserver
 
@@ -40,7 +40,7 @@
 		}			
 	}
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app hideLoadingStatus];
 }
 

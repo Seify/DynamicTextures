@@ -9,7 +9,7 @@
 #import "PictureShower.h"
 #import "PaintImageController.h"
 #import "MindGamePaintImageController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 
 @implementation PictureShower
 
@@ -83,7 +83,7 @@
 {
     NSLog(@"readyToDrawPressed");
     
-    KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
     MindGamePaintImageController* paintController = [[MindGamePaintImageController alloc] initWithNibName:@"MindGamePaintImageController" bundle:nil];
 //    paintController.delegate = self.delegate;
 //    paintController.currentBook = [self.delegate bookNumber:image];

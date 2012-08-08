@@ -8,7 +8,7 @@
 //
 
 #import "MKStoreManager.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 
 @implementation MKStoreManager
 
@@ -297,7 +297,7 @@ static MKStoreManager* _sharedStoreManager; // self
     
 //    NSLog(@"MKStoreManager provideContent: setBool:YES forKey:%@",productIdentifier);
     
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app goBack];
     
     

@@ -1,6 +1,6 @@
 //
 //  Animation.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 13.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

@@ -7,7 +7,7 @@
 //
 
 #import "BookPurchaseViewController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #include <netinet/in.h>
 #import <SystemConfiguration/SCNetworkReachability.h>
 #import "SoundManager.h"
@@ -49,7 +49,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app HideMainNavigationBar];
     
     //настраиваем кнопку "Купить за..."
@@ -191,7 +191,7 @@
 
 - (IBAction) backButtonPressed:(UIButton *)sender
 {
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app goBack];
 }
 
@@ -241,7 +241,7 @@
         MKStoreManager *storemanager = [MKStoreManager sharedManager];
         [storemanager buyBook:bookToScroll.number];
         
-        KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+        DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
         [app showLoadingStatus];
     }
     

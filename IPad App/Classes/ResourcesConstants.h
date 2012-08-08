@@ -1,13 +1,13 @@
 //
 //  TexturesConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 24.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_TexturesConstants_h
-#define KidsPaint_TexturesConstants_h
+#ifndef DynamicTextures_TexturesConstants_h
+#define DynamicTextures_TexturesConstants_h
 
 #define MAX_SIMULTANEOUSLY_LOADING_TEXTURES (10)
 

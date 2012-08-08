@@ -1,6 +1,6 @@
 //
 //  Sheet.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 25.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

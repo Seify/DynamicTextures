@@ -1,13 +1,13 @@
 //
 //  GLButtonConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 10.05.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_GLButtonConstants_h
-#define KidsPaint_GLButtonConstants_h
+#ifndef DynamicTextures_GLButtonConstants_h
+#define DynamicTextures_GLButtonConstants_h
 
 typedef int buttonState;
 

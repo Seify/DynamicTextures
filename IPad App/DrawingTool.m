@@ -1,6 +1,6 @@
 //
 //  DrwaingTool.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 02.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

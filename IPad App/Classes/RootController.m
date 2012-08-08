@@ -1,13 +1,13 @@
     //
 //  RootController.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 20.07.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "RootController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "PaintImageController.h"
 #import "BookPurchaseViewController.h"
 #import "Book.h"
@@ -400,7 +400,7 @@
 //        NSString *key = [NSString stringWithFormat:@"lastViewedBook"];
 //        [myUserDefaults setInteger:(image) forKey:key];
 //        
-//        KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+//        DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
 //        PaintImageController* paintController = [[PaintImageController alloc] initWithNibName:@"PaintImageController" bundle:nil];
 //        paintController.delegate = self.delegate;
 //        paintController.currentBook = [self.delegate bookNumber:image];
@@ -427,13 +427,13 @@
         oglvc.interfaceManager.currentBook = book;
         oglvc.interfaceManager.currentPage = page;
 
-        KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+        DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
         [ptr ShowController:oglvc backButtonTitle:@"Back"];
 
         [oglvc release];
         
     } else {
-        KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+        DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
         BookPurchaseViewController* bpvc = [[BookPurchaseViewController alloc] initWithNibName:@"BookPurchaseViewController" bundle:nil];
         NSString *bookID = [NSString stringWithFormat:@"ru.aplica.kidspaint.books.book%d", image];
         bpvc.bookPrice = [storemanager priceForIdentifier:bookID];
@@ -447,7 +447,7 @@
     
     NSLog(@"MindGame pressed");
     
-    KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
     PictureShower* ps = [[PictureShower alloc] initWithNibName:@"PictureShower" bundle:nil];
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
@@ -473,7 +473,7 @@
 }
 
 - (IBAction)editorPressed:(id)sender {
-    KidsPaintAppDelegate *ptr = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate *ptr = [DynamicTexturesAppDelegate SharedAppDelegate];
     EditorPaintImageController* paintController = [[EditorPaintImageController alloc] initWithNibName:@"EditorPaintImageController" bundle:nil];
    
     BookManager *bm = [BookManager sharedInstance];

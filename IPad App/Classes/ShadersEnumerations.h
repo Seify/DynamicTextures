@@ -1,13 +1,13 @@
 //
 //  ShadersEnumerations.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 23.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_ShadersEnumerations_h
-#define KidsPaint_ShadersEnumerations_h
+#ifndef DynamicTextures_ShadersEnumerations_h
+#define DynamicTextures_ShadersEnumerations_h
 
 
 //// Uniform index.

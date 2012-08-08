@@ -7,7 +7,7 @@
 //
 
 #import "EditorPaintImageController.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "BookManager.h"
 #import "Constants.h"
 
@@ -70,7 +70,7 @@
     
     //    NSLog(@"PIC: ViewDidLoad");
 	
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	[app HideMainNavigationBar];
 	
 	// Erase the view when recieving a notification named "shake" from the NSNotificationCenter object
@@ -238,7 +238,7 @@
 
 - (IBAction)exitPaintImage:(id)sender
 {
-//	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //    
 ////    UIImage* viewImage = [paintingView imageRepresentation];
 ////    [app saveCurrentImage:viewImage BookNumber:self.currentBook.number PageNumber:self.currentPage.number];
@@ -476,7 +476,7 @@
 
 - (void)saveCurrentImage:(UIImage*)viewImage BookNumber:(int)booknumber PageNumber:(int) pagenumber
 {
-    //	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    //	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
     //    NSLog(@"app saving current image of book %d, page %d", booknumber, pagenumber);
     
@@ -645,7 +645,7 @@
     
     
     
-    //    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    //    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     

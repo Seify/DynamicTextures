@@ -1,13 +1,13 @@
 //
 //  EraserConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 11.05.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_EraserConstants_h
-#define KidsPaint_EraserConstants_h
+#ifndef DynamicTextures_EraserConstants_h
+#define DynamicTextures_EraserConstants_h
 
 typedef int eraserPlusUndoState;
 

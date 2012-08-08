@@ -1,13 +1,13 @@
 //
 //  InterfaceConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 25.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_InterfaceConstants_h
-#define KidsPaint_InterfaceConstants_h
+#ifndef DynamicTextures_InterfaceConstants_h
+#define DynamicTextures_InterfaceConstants_h
 
 #import "GLButtonConstants.h"
 #import "DrawingToolsBoxConstants.h"

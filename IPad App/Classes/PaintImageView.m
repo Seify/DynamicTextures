@@ -1,13 +1,13 @@
 //
 //  PaintImageView.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 20.07.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
 #import "PaintImageView.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 
 @implementation PaintImageView
 
@@ -53,7 +53,7 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	UITouch *touch = [touches anyObject];
 	currentPoint = [touch locationInView:self];
@@ -71,7 +71,7 @@
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	if (app.paintMode == paintModeMedium)
 	{
@@ -93,7 +93,7 @@
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	if (app.paintMode == paintModeMedium)
 	{

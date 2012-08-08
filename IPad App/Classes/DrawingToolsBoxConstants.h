@@ -1,13 +1,13 @@
 //
 //  DrawingToolsBoxConstants.h
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 08.06.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.
 //
 
-#ifndef KidsPaint_DrawingToolsBoxConstants_h
-#define KidsPaint_DrawingToolsBoxConstants_h
+#ifndef DynamicTextures_DrawingToolsBoxConstants_h
+#define DynamicTextures_DrawingToolsBoxConstants_h
 
 typedef unsigned int drawingToolsBoxState;
 

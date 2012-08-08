@@ -1,6 +1,6 @@
 //
 //  Math.c
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by Roman Smirnov on 16.04.12.
 //  Copyright (c) 2012 Aplica. All rights reserved.

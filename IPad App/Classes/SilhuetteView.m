@@ -1,6 +1,6 @@
     //
 //  SilhuetteView.m
-//  KidsPaint
+//  DynamicTextures
 //
 //  Created by naceka on 13.09.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "SilhuetteView.h"
 #import "PaintingView.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "Line.h"
 #import "PaintingView.h"
 
@@ -39,7 +39,7 @@
 //    NSLog(@"SilhuetteView: touchesBegan");
     
 //
-//	KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//	DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 	
 	NSArray *s = [self.superview subviews];
 	PaintingView* pv = (PaintingView*)[s objectAtIndex:1];

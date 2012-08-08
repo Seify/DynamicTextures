@@ -15,7 +15,7 @@
 #import "BookManager.h"
 #import "ResourceManager.h"
 #import "Constants.h"
-#import "KidsPaintAppDelegate.h"
+#import "DynamicTexturesAppDelegate.h"
 #import "SoundManager.h"
 #import "DrawingToolExtended.h"
 #import "Mathematics.h"
@@ -817,7 +817,7 @@
         
     glDisable(GL_DEPTH_TEST);
     
-//    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+//    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //    if (app.paintMode != paintModeSimple) {
         
         {        //рисуем линии кисти
@@ -1385,7 +1385,7 @@
     // update uniform values
     glUniformMatrix4fv(texture_plus_alpha_uniforms[TEXTURE_PLUS_ALPHA_UNIFORM_MODEL_VIEW_PROJECTION_MATRIX], 1, GL_FALSE, modelviewProj);
 
-    KidsPaintAppDelegate* app = [KidsPaintAppDelegate SharedAppDelegate];
+    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
     glActiveTexture(GL_TEXTURE0);
     NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:button.identificator], @"buttontype", 
                                 [NSNumber numberWithInt:app.paintMode], @"paintingmode", 
