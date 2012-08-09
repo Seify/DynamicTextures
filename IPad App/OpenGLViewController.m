@@ -157,7 +157,6 @@
 
     
     
-    [self.interfaceManager setup];
 
     self.countOfUndoAvaible = 0;
     
@@ -306,6 +305,8 @@
     [displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];       
     
     [self CreateFBO];
+    
+    [self.interfaceManager setup];
     
     for (int i=0; i<[self.interfaceManager.drawingToolsBox.drawingTools count]; i++)
     {
@@ -682,11 +683,12 @@
 
 - (void)drawLayers
 {
+    glDisable(GL_DEPTH_TEST);
+    glEnable(GL_BLEND);
+
     for (DTLayer *layer in self.interfaceManager.layers)
     {
-        glDisable(GL_DEPTH_TEST);
-        glDisable(GL_BLEND);
-        
+        if (!layer.isVisible) continue;
         
         GLuint currentProgram = [self.resourceManager getProgram:PROGRAM_FINAL_PICTURE];
         glUseProgram(currentProgram);
@@ -702,7 +704,7 @@
         glUniformMatrix4fv(final_picture_uniforms[FINAL_PICTURE_UNIFORM_MODEL_VIEW_PROJECTION_MATRIX], 1, GL_FALSE, modelviewProj);
         
         glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, currentDrawingTexture);
+        glBindTexture(GL_TEXTURE_2D, layer.userDrawingTexture);
         glUniform1i(final_picture_uniforms[FINAL_PICTURE_UNIFORM_DRAWING_TEXTURE], 0);
         
         glActiveTexture(GL_TEXTURE1);
@@ -853,7 +855,11 @@
     isDrawingTextureUsed = YES;
     
     glBindFramebuffer(GL_FRAMEBUFFER, drawingToTextureFramebuffer);
-        
+    
+    DTLayer *activeLayer = [self.interfaceManager.layers objectAtIndex:self.interfaceManager.activeLayerNumber];
+    GLuint textureToDrawTo = activeLayer.userDrawingTexture;
+    glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, textureToDrawTo, 0);
+    
     glViewport(0, 0, 1024, 1024);
         
     glDisable(GL_DEPTH_TEST);
@@ -1003,9 +1009,6 @@
 //            countAreasToFill = 0;       
 //        }
 //    }
-    
-    glClearColor(0.5, 0.0, 0.0, 1.0);
-    glClear(GL_COLOR_BUFFER_BIT);
     
     isDrawingTextureUsed = NO;
     

@@ -24,5 +24,6 @@ void main()
 // вариант без затенения / осветления
 //    gl_FragColor = vec4(paperColor.rgb * bgImageColor.rgb - drawingColor.rgb, 1.0);
 
-    gl_FragColor = vec4(drawingColor.rgb * bgImageColor.rgb, 1.0);
+//    gl_FragColor = vec4(drawingColor.rgb * bgImageColor.rgb, 1.0);
+    gl_FragColor = vec4(drawingColor.rgb, 1.0);
 }

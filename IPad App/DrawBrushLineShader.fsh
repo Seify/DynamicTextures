@@ -22,15 +22,12 @@ void main()
     vec4 bgImageColor = texture2D(texture, areaTexCoords);
     vec4 brushTextureColor = texture2D(brushTexture, fTexCoords);
     
-//    gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a) * step(abs(bgImageColor.a-currentArea), 0.0001);
-
-    gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a);
+//    gl_FragColor = vec4 (brushColor.rgb, brushTextureColor.a);
+    gl_FragColor = vec4(1.0, 1.0, 1.0, brushTextureColor.a);
     
-    // Dynamic texture depending on brush tex coords
-    gl_FragColor = vec4 (fTexCoords.x, fTexCoords.y, 0.0, brushTextureColor.a);
-    
-    // Dynamic texture depending on picture tex coords
-    gl_FragColor = vec4 (areaTexCoords.x, areaTexCoords.y, 0.0, brushTextureColor.a);
-
-    
+//    // Dynamic texture depending on brush tex coords
+//    gl_FragColor = vec4 (fTexCoords.x, fTexCoords.y, 0.0, brushTextureColor.a);
+//    
+//    // Dynamic texture depending on picture tex coords
+//    gl_FragColor = vec4 (areaTexCoords.x, areaTexCoords.y, 0.0, brushTextureColor.a);
 }

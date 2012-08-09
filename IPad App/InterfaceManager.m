@@ -333,10 +333,25 @@
     self.layers = [NSMutableArray array];
     
     DTLayer *layer0 = [[DTLayer alloc] init];
+    layer0.isVisible = YES;
+    
+    GLuint textureName;
+	glGenTextures(1, &textureName);
+    layer0.userDrawingTexture = textureName;
+    glBindTexture(GL_TEXTURE_2D, layer0.userDrawingTexture);
+    GLubyte *newDrawingTexture = (GLubyte *)malloc(1024 * 1024 * 4 * sizeof(GLubyte));
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 1024, 1024, 0, GL_RGBA, GL_UNSIGNED_BYTE, newDrawingTexture);
+    free(newDrawingTexture);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+
+
     [self.layers addObject:layer0];
     [layer0 autorelease];
     
-    self.activeLayer = 0;
+    self.activeLayerNumber = 0;
         
 }
 

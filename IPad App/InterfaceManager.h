@@ -101,7 +101,7 @@
 @property (readonly, retain) NSArray *buttons;
 @property (readonly, retain) EraserPlusUndo *eraserPlusUndo;
 
-@property int activeLayer;
+@property int activeLayerNumber;
 @property (nonatomic, retain) NSMutableArray *layers;
 
 //@property (readonly) GLButton *clearPainting;
