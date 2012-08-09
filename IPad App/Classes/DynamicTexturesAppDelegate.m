@@ -52,31 +52,16 @@ static DynamicTexturesAppDelegate *classAppDelegatePtr = nil;
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     
     classAppDelegatePtr = self;
 	paintMode = paintModeSimple; //paintModeMedium;
     
 	
 	navigCtrl = [[MainNavigationController alloc] init];
-	[window addSubview:navigCtrl.view];
-
-// загрузка старого контроллера с CoverFlow на OpenGL 1.1
-//    
-//    RootController* rootViewController = [[RootController alloc] initWithNibName:@"RootController" bundle:nil];
-//	[navigCtrl pushViewController:rootViewController animated:YES];
-//    
-//    bookManager = [[BookManager alloc] init];
-//    rootViewController.delegate = bookManager;
-        
-    
-//    BookManager *bm = [BookManager sharedInstance];
-//    Book *book = [bm bookNumber:0];
-//    Page *page = [bm pageNumber:0 InBook:book];
-    
+    window.rootViewController = navigCtrl;
     OpenGLViewController* oglvc = [[OpenGLViewController alloc] init];
-//    oglvc.interfaceManager.currentBook = book;
-//    oglvc.interfaceManager.currentPage = page;
     
     [navigCtrl pushViewController:oglvc animated:YES];
     

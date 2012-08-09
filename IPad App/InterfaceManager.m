@@ -329,6 +329,14 @@
     exampleImageOnButton.transform = CGAffineTransformMakeRotation(-0.065);
     exampleImageOnButton.hidden = YES;
     [self.delegate.view addSubview:exampleImageOnButton];
+    
+    self.layers = [NSMutableArray array];
+    
+    DTLayer *layer0 = [[DTLayer alloc] init];
+    [self.layers addObject:layer0];
+    [layer0 autorelease];
+    
+    self.activeLayer = 0;
         
 }
 
@@ -1548,6 +1556,9 @@
             
         default:
         {
+            for (DTLayer *layer in self.layers){
+                [layer update:currtime];
+            }
             [self.gallery updateSheets:currtime];
             [self.galleryColored updateSheets:currtime];
             [self.drawingToolsBox updatePhysicsAtTime:currtime];
@@ -2710,6 +2721,8 @@
     if (exampleImage) [exampleImage release];
     if (cross) [cross release];
     if (exampleImageOnButton) [exampleImageOnButton release];
+    
+    self.layers = nil;
     
     [super dealloc];
 }

@@ -155,6 +155,7 @@
 		B188270815A2033700AFB213 /* Price@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B18826FA15A2033700AFB213 /* Price@2x.png */; };
 		B188270915A2033700AFB213 /* RightShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B18826FB15A2033700AFB213 /* RightShadow.png */; };
 		B188270A15A2033700AFB213 /* RightShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B18826FC15A2033700AFB213 /* RightShadow@2x.png */; };
+		B1894CBA15D31E9B00A65137 /* DTLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1894CB915D31E9B00A65137 /* DTLayer.m */; };
 		B18B84CB15384F8E00EC0859 /* Painting.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B84CA15384F8E00EC0859 /* Painting.m */; };
 		B18B84D01538562D00EC0859 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B84CF1538562D00EC0859 /* Animation.m */; };
 		B18B84D3153C0AA600EC0859 /* Mathematics.c in Sources */ = {isa = PBXBuildFile; fileRef = B18B84D2153C0AA600EC0859 /* Mathematics.c */; };
@@ -442,6 +443,8 @@
 		B18826FA15A2033700AFB213 /* Price@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Price@2x.png"; sourceTree = "<group>"; };
 		B18826FB15A2033700AFB213 /* RightShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightShadow.png; sourceTree = "<group>"; };
 		B18826FC15A2033700AFB213 /* RightShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightShadow@2x.png"; sourceTree = "<group>"; };
+		B1894CB815D31E9B00A65137 /* DTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTLayer.h; sourceTree = "<group>"; };
+		B1894CB915D31E9B00A65137 /* DTLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTLayer.m; sourceTree = "<group>"; };
 		B18B84C915384F8E00EC0859 /* Painting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painting.h; sourceTree = "<group>"; };
 		B18B84CA15384F8E00EC0859 /* Painting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Painting.m; sourceTree = "<group>"; };
 		B18B84CE1538562D00EC0859 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
@@ -912,6 +915,7 @@
 				B1A20A3E14E1553F00ACC1A2 /* OpenGLView.m */,
 				B1A20A3F14E1553F00ACC1A2 /* OpenGLViewController.h */,
 				B1A20A4014E1553F00ACC1A2 /* OpenGLViewController.m */,
+				B1894CBB15D31EA100A65137 /* Layers */,
 				B1A20A6614E15CC000ACC1A2 /* Shaders */,
 			);
 			name = "Graphics Engine";
@@ -1189,6 +1193,15 @@
 				B18826FC15A2033700AFB213 /* RightShadow@2x.png */,
 			);
 			path = BookSelectPageTextures;
+			sourceTree = "<group>";
+		};
+		B1894CBB15D31EA100A65137 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				B1894CB815D31E9B00A65137 /* DTLayer.h */,
+				B1894CB915D31E9B00A65137 /* DTLayer.m */,
+			);
+			name = Layers;
 			sourceTree = "<group>";
 		};
 		B18A9F8D14BDD2D4008498DA /* icons */ = {
@@ -1801,6 +1814,7 @@
 				B1D51B02156A308500DAE0F2 /* Texture.m in Sources */,
 				B183CB7F1589D609004AD658 /* PVRTexture.m in Sources */,
 				B1CBC51715A2ED3100C43C52 /* RainbowTool.m in Sources */,
+				B1894CBA15D31E9B00A65137 /* DTLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

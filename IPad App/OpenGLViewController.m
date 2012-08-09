@@ -265,7 +265,8 @@
     myEAGLContext = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
     resourceLoadingEAGLContext = [[EAGLContext alloc] initWithAPI:[myEAGLContext API] sharegroup: [myEAGLContext sharegroup]];
     
-//    NSLog(@"myEAGLContext = %@", myEAGLContext);
+    NSLog(@"myEAGLContext = %@", myEAGLContext);
+    NSLog(@"resourceLoadingEAGLContext = %@", resourceLoadingEAGLContext);
     
     //TODO: добавить в plist требование OpenGL ES 2.0
     [EAGLContext setCurrentContext: myEAGLContext];
@@ -610,6 +611,7 @@
                                                       InContext:resourceLoadingEAGLContext
                                                      ShouldLoad:YES
                                                           Async:NO];
+
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, backgroundTexture);
     glUniform1i(simple_texturing_uniforms[SIMPLE_TEXTURING_UNIFORM_TEXTURE], 0);
@@ -676,6 +678,45 @@
 //    if (![self validateProgram:currentProgram]) {
 //        NSLog(@"Failed to validate program: (%d)", currentProgram);
 //    }
+}
+
+- (void)drawLayers
+{
+    for (DTLayer *layer in self.interfaceManager.layers)
+    {
+        glDisable(GL_DEPTH_TEST);
+        glDisable(GL_BLEND);
+        
+        
+        GLuint currentProgram = [self.resourceManager getProgram:PROGRAM_FINAL_PICTURE];
+        glUseProgram(currentProgram);
+        
+        GLfloat modelviewProj[16];
+        [self MakeMatrix:modelviewProj
+                 OriginX:PAINTING_ORIGIN_X
+                 OriginY:PAINTING_ORIGIN_Y
+                   Width:PAINTING_WIDTH
+                  Height:PAINTING_HEIGHT
+                Rotation:0.0];
+        
+        glUniformMatrix4fv(final_picture_uniforms[FINAL_PICTURE_UNIFORM_MODEL_VIEW_PROJECTION_MATRIX], 1, GL_FALSE, modelviewProj);
+        
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, currentDrawingTexture);
+        glUniform1i(final_picture_uniforms[FINAL_PICTURE_UNIFORM_DRAWING_TEXTURE], 0);
+        
+        glActiveTexture(GL_TEXTURE1);
+        glBindTexture(GL_TEXTURE_2D, blackAndWhitePictureTexture);
+        glUniform1i(final_picture_uniforms[FINAL_PICTURE_UNIFORM_TEXTURE], 1);
+        
+        glVertexAttribPointer(FINAL_PICTURE_WITH_SHADING_ATTRIB_VERTEX,3, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].vertex);
+        glEnableVertexAttribArray(FINAL_PICTURE_WITH_SHADING_ATTRIB_VERTEX);
+        
+        glVertexAttribPointer(FINAL_PICTURE_WITH_SHADING_ATTRIB_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].texCoord);
+        glEnableVertexAttribArray(FINAL_PICTURE_WITH_SHADING_ATTRIB_TEX_COORDS);
+        
+        glDrawArrays(GL_TRIANGLES, 0, 6);
+    }
 }
 
 - (void)drawPictureWithShading{
@@ -962,6 +1003,9 @@
 //            countAreasToFill = 0;       
 //        }
 //    }
+    
+    glClearColor(0.5, 0.0, 0.0, 1.0);
+    glClear(GL_COLOR_BUFFER_BIT);
     
     isDrawingTextureUsed = NO;
     
@@ -2186,12 +2230,14 @@
         }
 
         if ([self.interfaceManager shouldDrawInterfaceElement:INTERFACE_ELEMENT_PAINTING]) {
-//            if ([self.interfaceManager.painting shouldPlayAnimation:self.interfaceManager.painting.shadowing] &&
-//                self.interfaceManager.painting.shadowing.alpha > 0.0){
-//                [self drawPictureWithShading];
-//            } else {
-                [self drawPicture];
-//            }
+////            if ([self.interfaceManager.painting shouldPlayAnimation:self.interfaceManager.painting.shadowing] &&
+////                self.interfaceManager.painting.shadowing.alpha > 0.0){
+////                [self drawPictureWithShading];
+////            } else {
+//                [self drawPicture];
+////            }
+            
+            [self drawLayers];
         }
         
         if ([self.interfaceManager shouldDrawInterfaceElement:INTERFACE_ELEMENT_GALLERY])

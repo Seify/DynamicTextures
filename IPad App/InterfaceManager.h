@@ -17,6 +17,7 @@
 #import "GLButton.h"
 #import "EraserPlusUndo.h"
 #import "ResourcesConstants.h"
+#import "DTLayer.h"
 
 @class OpenGLViewController;
 @class Painting;
@@ -99,6 +100,10 @@
 @property (retain) ColorPickerViewController* colorPickerController;
 @property (readonly, retain) NSArray *buttons;
 @property (readonly, retain) EraserPlusUndo *eraserPlusUndo;
+
+@property int activeLayer;
+@property (nonatomic, retain) NSMutableArray *layers;
+
 //@property (readonly) GLButton *clearPainting;
 
 - (id)initWithState:(interfaceState)newState;

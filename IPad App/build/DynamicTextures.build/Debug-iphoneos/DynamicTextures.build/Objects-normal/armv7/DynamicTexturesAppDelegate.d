@@ -43,6 +43,7 @@ dependencies: \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/EraserPlusUndo.h \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/EraserPlusUndoConstants.h \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/ResourcesConstants.h \
+  /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/DTLayer.h \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/ResourceManager.h \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/Texture.h \
   /Users/Seify/Desktop/My\ Projects/DynamicTextures/IPad\ App/Classes/PVRTexture.h

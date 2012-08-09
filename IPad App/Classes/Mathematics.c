@@ -27,11 +27,13 @@ CGPoint convertLocationToPaintingViewLocation(CGPoint location) {
 // для текстуры 1024*1024
 CGPoint convertPaintingViewPixelsToGLCoords(CGPoint locationOnPaintingView) {
     float minX = -1.0; //минимальное значение X для VertexPosition
-    float maxX = (PAINTING_WIDTH - (1024.0/2.0) ) / (1024.0/2.0); //максимальное значение X для VertexPosition. 1024 - ширина текстуры
+//    float maxX = (PAINTING_WIDTH - (1024.0/2.0) ) / (1024.0/2.0); //максимальное значение X для VertexPosition. 1024 - ширина текстуры
+    float maxX = 1.0;
     float lengthX = maxX - minX; // ширина PaintingView
     
     float minY = -1.0; //минимальное значение X для VertexPosition
-    float maxY = (PAINTING_HEIGHT - (1024.0/2.0) ) / (1024.0/2.0); //максимальное значение Y для VertexPosition
+//    float maxY = (PAINTING_HEIGHT - (1024.0/2.0) ) / (1024.0/2.0); //максимальное значение Y для VertexPosition
+    float maxY = 1.0;
     float lengthY = maxY - minY; // высота PaintingView
     
     CGPoint p = CGPointMake(locationOnPaintingView.x / PAINTING_WIDTH * lengthX - 1.0, locationOnPaintingView.y / PAINTING_HEIGHT * lengthY - 1.0);
