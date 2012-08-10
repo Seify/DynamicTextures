@@ -36,8 +36,9 @@ void main()
 //        areaCoefficient = 0.0;
 //    }
     
-    float shadingMultCoefficient = 1.0 - discoloringCoefficient * areaCoefficient;
-    float shadingAddCoefficient = highlightCoefficient * areaCoefficient;
-    
-    gl_FragColor = vec4(vec3(paperColor.rgb * bgImageColor.rgb - drawingColor.rgb) * shadingMultCoefficient + shadingAddCoefficient, 1.0);
+//    float shadingMultCoefficient = 1.0 - discoloringCoefficient * areaCoefficient;
+//    float shadingAddCoefficient = highlightCoefficient * areaCoefficient;
+//    
+//    gl_FragColor = vec4(vec3(paperColor.rgb * bgImageColor.rgb - drawingColor.rgb) * shadingMultCoefficient + shadingAddCoefficient, 1.0);
+    gl_FragColor = vec4(vec3(drawingColor.rgb), 1.0);
 }

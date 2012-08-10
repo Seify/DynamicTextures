@@ -338,6 +338,9 @@
     GLuint textureName;
 	glGenTextures(1, &textureName);
     layer0.userDrawingTexture = textureName;
+    
+    NSLog(@"%@ : %@ layer0.userDrawingTexture = %d", self, NSStringFromSelector(_cmd), layer0.userDrawingTexture);
+    
     glBindTexture(GL_TEXTURE_2D, layer0.userDrawingTexture);
     GLubyte *newDrawingTexture = (GLubyte *)malloc(1024 * 1024 * 4 * sizeof(GLubyte));
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 1024, 1024, 0, GL_RGBA, GL_UNSIGNED_BYTE, newDrawingTexture);
@@ -348,6 +351,22 @@
 	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
 
+    GLuint dTextureName;
+	glGenTextures(1, &dTextureName);
+    layer0.dynamicTexture = dTextureName;
+    
+    NSLog(@"%@ : %@ layer0.dynamicTexture = %d", self, NSStringFromSelector(_cmd), layer0.dynamicTexture);
+    
+    glBindTexture(GL_TEXTURE_2D, layer0.dynamicTexture);
+    GLubyte *newDynamicTexture = (GLubyte *)malloc(1024 * 1024 * 4 * sizeof(GLubyte));
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, 1024, 1024, 0, GL_RGBA, GL_UNSIGNED_BYTE, newDynamicTexture);
+    free(newDynamicTexture);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+
+    
     [self.layers addObject:layer0];
     [layer0 autorelease];
     

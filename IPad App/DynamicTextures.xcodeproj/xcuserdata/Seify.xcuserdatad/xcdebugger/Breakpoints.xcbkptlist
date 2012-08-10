@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "OpenGLViewController.m"
-         timestampString = "366236011.743326"
+         timestampString = "366323561.816204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1746"
-         endingLineNumber = "1746"
+         startingLineNumber = "1779"
+         endingLineNumber = "1779"
          landmarkName = "-drawUpperBookGallery"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "2120"
-         endingLineNumber = "2120"
+         startingLineNumber = "2139"
+         endingLineNumber = "2139"
          landmarkName = "-shouldDrawInterfaceElement:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "532"
-         endingLineNumber = "532"
+         startingLineNumber = "551"
+         endingLineNumber = "551"
          landmarkName = "-touchesMovedLocation:PreviousLocation:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -99,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "OpenGLViewController.m"
-         timestampString = "366236011.743326"
+         timestampString = "366323561.816204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1946"
-         endingLineNumber = "1946"
+         startingLineNumber = "1979"
+         endingLineNumber = "1979"
          landmarkName = "-drawGallery"
          landmarkType = "5">
       </FileBreakpoint>
@@ -112,11 +112,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "OpenGLViewController.m"
-         timestampString = "366236011.743326"
+         timestampString = "366323561.816204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1944"
-         endingLineNumber = "1944"
+         startingLineNumber = "1977"
+         endingLineNumber = "1977"
          landmarkName = "-drawGallery"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "OpenGLViewController.m"
-         timestampString = "366236011.743326"
+         timestampString = "366323561.816204"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1749"
-         endingLineNumber = "1749"
+         startingLineNumber = "1782"
+         endingLineNumber = "1782"
          landmarkName = "-drawUpperBookGallery"
          landmarkType = "5">
       </FileBreakpoint>
@@ -151,11 +151,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1721"
-         endingLineNumber = "1721"
+         startingLineNumber = "1740"
+         endingLineNumber = "1740"
          landmarkName = "-sheetWillAnimateToPaintingPage:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -385,11 +385,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "625"
-         endingLineNumber = "625"
+         startingLineNumber = "644"
+         endingLineNumber = "644"
          landmarkName = "-touchesEndedLocation:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -398,11 +398,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "824"
-         endingLineNumber = "824"
+         startingLineNumber = "843"
+         endingLineNumber = "843"
          landmarkName = "-buttonPressed:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -411,11 +411,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InterfaceManager.m"
-         timestampString = "366235583.021888"
+         timestampString = "366322478.258226"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1099"
-         endingLineNumber = "1099"
+         startingLineNumber = "1118"
+         endingLineNumber = "1118"
          landmarkName = "-paintModeButtonPressed"
          landmarkType = "5">
       </FileBreakpoint>

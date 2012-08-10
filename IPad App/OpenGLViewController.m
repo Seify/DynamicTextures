@@ -708,14 +708,14 @@
         glUniform1i(final_picture_uniforms[FINAL_PICTURE_UNIFORM_DRAWING_TEXTURE], 0);
         
         glActiveTexture(GL_TEXTURE1);
-        glBindTexture(GL_TEXTURE_2D, blackAndWhitePictureTexture);
+        glBindTexture(GL_TEXTURE_2D, layer.dynamicTexture);
         glUniform1i(final_picture_uniforms[FINAL_PICTURE_UNIFORM_TEXTURE], 1);
         
-        glVertexAttribPointer(FINAL_PICTURE_WITH_SHADING_ATTRIB_VERTEX,3, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].vertex);
-        glEnableVertexAttribArray(FINAL_PICTURE_WITH_SHADING_ATTRIB_VERTEX);
+        glVertexAttribPointer(FINAL_PICTURE_ATTRIB_VERTEX,3, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].vertex);
+        glEnableVertexAttribArray(FINAL_PICTURE_ATTRIB_VERTEX);
         
-        glVertexAttribPointer(FINAL_PICTURE_WITH_SHADING_ATTRIB_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].texCoord);
-        glEnableVertexAttribArray(FINAL_PICTURE_WITH_SHADING_ATTRIB_TEX_COORDS);
+        glVertexAttribPointer(FINAL_PICTURE_ATTRIB_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, sizeof(vertexDataTextured), &plain[0].texCoord);
+        glEnableVertexAttribArray(FINAL_PICTURE_ATTRIB_TEX_COORDS);
         
         glDrawArrays(GL_TRIANGLES, 0, 6);
     }
@@ -846,6 +846,32 @@
     }
 }
 
+- (void)drawDynamicTexture
+{
+    
+    glBindTexture(GL_TEXTURE_2D, 0);
+    
+    glBindFramebuffer(GL_FRAMEBUFFER, drawingToTextureFramebuffer);
+    
+    DTLayer *activeLayer = [self.interfaceManager.layers objectAtIndex:self.interfaceManager.activeLayerNumber];
+    GLuint textureToDrawTo = activeLayer.dynamicTexture;
+    
+    
+    
+    glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, textureToDrawTo, 0);
+    
+    glViewport(0, 0, 1024, 1024);
+    
+    glDisable(GL_DEPTH_TEST);
+    glDisable(GL_BLEND);
+
+    
+    glClearColor(0.0, 1.0, 0.0, 1.0);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+
+}
+
 - (void) drawToTexture {
     
     //    NSLog(@"%@ : %@ ", self, NSStringFromSelector(_cmd));
@@ -853,6 +879,9 @@
     if (isDrawingTextureUsed) {NSLog(@"WARNING!! isDrawingTextureUsed");}
     
     isDrawingTextureUsed = YES;
+    
+    [self drawDynamicTexture];
+    
     
     glBindFramebuffer(GL_FRAMEBUFFER, drawingToTextureFramebuffer);
     
@@ -863,6 +892,7 @@
     glViewport(0, 0, 1024, 1024);
         
     glDisable(GL_DEPTH_TEST);
+    
     
 //    DynamicTexturesAppDelegate* app = [DynamicTexturesAppDelegate SharedAppDelegate];
 //    if (app.paintMode != paintModeSimple) {
@@ -924,89 +954,91 @@
 //                NSLog(@"Failed to validate program: (%d)", currentProgram);
 //            }
         }
-        
+    
+//    [self drawDynamicTexture];
+    
 
 // рисуем заливку областей
-        for (FillingAnimation *fa in self.interfaceManager.painting.animations){
-                
-//                glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-                glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-
-                glEnable(GL_BLEND); 
-                
-                GLuint currentProgram = [self.resourceManager getProgram:PROGRAM_FILLING];            
-                glUseProgram(currentProgram);
-                
-                GLfloat modelviewProj[16];
-                [self MakeMatrix:modelviewProj OriginX:0.0 OriginY:0.0 Width:768.0 Height:1024.0 Rotation:0.0];
-                
-                // update uniform values
-                glUniformMatrix4fv(filling_uniforms[FILLING_UNIFORM_MODEL_VIEW_PROJECTION_MATRIX], 1, GL_FALSE, modelviewProj);
-                
-                glActiveTexture(GL_TEXTURE1); 
-                glBindTexture(GL_TEXTURE_2D, blackAndWhitePictureTexture);
-                glUniform1i(filling_uniforms[FILLING_UNIFORM_AREAS_TEXTURE], 1);
-            
-                GLuint circleTexture = [self.resourceManager getTexture:CIRCLE_TEXTURE
-                                                             Parameters:nil
-                                                              InContext:resourceLoadingEAGLContext
-                                                             ShouldLoad:YES 
-                                                                  Async:YES];
-                glActiveTexture(GL_TEXTURE0); 
-                glBindTexture(GL_TEXTURE_2D, circleTexture);
-                glUniform1i(filling_uniforms[FILLING_UNIFORM_CIRCLE_TEXTURE], 0);
-
-            
-//                glUniform1f(filling_uniforms[FILLING_UNIFORM_CURRENT_AREA], areasToFill[i]);
-                glUniform1f(filling_uniforms[FILLING_UNIFORM_CURRENT_AREA], fa.area);
-                
-                glUniform4f(filling_uniforms[FILLING_UNIFORM_BRUSH_COLOR], 
-                            1.0-fa.red, 
-                            1.0-fa.green, 
-                            1.0-fa.blue, 
-                            fa.alpha);
-            
-//                NSLog(@"%@ : %@ Color = (%f, %f, %f, %f)", self, NSStringFromSelector(_cmd) ,fa.red, fa.green, fa.blue, fa.alpha);
-
-                
-                float radius = 2.0 * (fa.position.size.width - fa.startPosition.size.width)/(fa.endPosition.size.width - fa.startPosition.size.width);
-                
-                float *vertexes;
-                vertexes = malloc(42*sizeof(float));
-                       
-                CGPoint locationOnPaintingView = convertLocationToPaintingViewLocation(fa.position.origin);
-                CGPoint center = convertPaintingViewPixelsToGLCoords(locationOnPaintingView);
-
-                
-                for (int i=0; i<6; i++) {
-                    vertexes[i*7+0] = (plain[i].vertex.x ) *radius + center.y;// - 0.21875;
-                    vertexes[i*7+1] = (plain[i].vertex.y ) *radius - center.x;// + 0.453125;
-                    vertexes[i*7+2] = plain[i].vertex.z;
-                    vertexes[i*7+3] = (1.0-vertexes[i*7+1])/2.0;
-                    vertexes[i*7+4] = (1.0-vertexes[i*7+0])/2.0;
-                    vertexes[i*7+5] = plain[i].texCoord.u;
-                    vertexes[i*7+6] = plain[i].texCoord.v;     
-                }
-            
-
-                glVertexAttribPointer(FILLING_ATTRIB_VERTEX, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[0]);
-                glEnableVertexAttribArray(FILLING_ATTRIB_VERTEX);
-
-                glVertexAttribPointer(FILLING_ATTRIB_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[3]);
-                glEnableVertexAttribArray(FILLING_ATTRIB_TEX_COORDS);
-
-                glVertexAttribPointer(FILLING_ATTRIB_CIRCLE_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[5]);
-                glEnableVertexAttribArray(FILLING_ATTRIB_CIRCLE_TEX_COORDS);      
-                
-                glDrawArrays(GL_TRIANGLES, 0, 6);
-            
-                free(vertexes);
-                
-//                if (![self validateProgram:currentProgram]) {
-//                    NSLog(@"Failed to validate fillingProgram: (%d)", currentProgram);
+//        for (FillingAnimation *fa in self.interfaceManager.painting.animations){
+//                
+////                glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+//                glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+//
+//                glEnable(GL_BLEND); 
+//                
+//                GLuint currentProgram = [self.resourceManager getProgram:PROGRAM_FILLING];            
+//                glUseProgram(currentProgram);
+//                
+//                GLfloat modelviewProj[16];
+//                [self MakeMatrix:modelviewProj OriginX:0.0 OriginY:0.0 Width:768.0 Height:1024.0 Rotation:0.0];
+//                
+//                // update uniform values
+//                glUniformMatrix4fv(filling_uniforms[FILLING_UNIFORM_MODEL_VIEW_PROJECTION_MATRIX], 1, GL_FALSE, modelviewProj);
+//                
+//                glActiveTexture(GL_TEXTURE1); 
+//                glBindTexture(GL_TEXTURE_2D, blackAndWhitePictureTexture);
+//                glUniform1i(filling_uniforms[FILLING_UNIFORM_AREAS_TEXTURE], 1);
+//            
+//                GLuint circleTexture = [self.resourceManager getTexture:CIRCLE_TEXTURE
+//                                                             Parameters:nil
+//                                                              InContext:resourceLoadingEAGLContext
+//                                                             ShouldLoad:YES 
+//                                                                  Async:YES];
+//                glActiveTexture(GL_TEXTURE0); 
+//                glBindTexture(GL_TEXTURE_2D, circleTexture);
+//                glUniform1i(filling_uniforms[FILLING_UNIFORM_CIRCLE_TEXTURE], 0);
+//
+//            
+////                glUniform1f(filling_uniforms[FILLING_UNIFORM_CURRENT_AREA], areasToFill[i]);
+//                glUniform1f(filling_uniforms[FILLING_UNIFORM_CURRENT_AREA], fa.area);
+//                
+//                glUniform4f(filling_uniforms[FILLING_UNIFORM_BRUSH_COLOR], 
+//                            1.0-fa.red, 
+//                            1.0-fa.green, 
+//                            1.0-fa.blue, 
+//                            fa.alpha);
+//            
+////                NSLog(@"%@ : %@ Color = (%f, %f, %f, %f)", self, NSStringFromSelector(_cmd) ,fa.red, fa.green, fa.blue, fa.alpha);
+//
+//                
+//                float radius = 2.0 * (fa.position.size.width - fa.startPosition.size.width)/(fa.endPosition.size.width - fa.startPosition.size.width);
+//                
+//                float *vertexes;
+//                vertexes = malloc(42*sizeof(float));
+//                       
+//                CGPoint locationOnPaintingView = convertLocationToPaintingViewLocation(fa.position.origin);
+//                CGPoint center = convertPaintingViewPixelsToGLCoords(locationOnPaintingView);
+//
+//                
+//                for (int i=0; i<6; i++) {
+//                    vertexes[i*7+0] = (plain[i].vertex.x ) *radius + center.y;// - 0.21875;
+//                    vertexes[i*7+1] = (plain[i].vertex.y ) *radius - center.x;// + 0.453125;
+//                    vertexes[i*7+2] = plain[i].vertex.z;
+//                    vertexes[i*7+3] = (1.0-vertexes[i*7+1])/2.0;
+//                    vertexes[i*7+4] = (1.0-vertexes[i*7+0])/2.0;
+//                    vertexes[i*7+5] = plain[i].texCoord.u;
+//                    vertexes[i*7+6] = plain[i].texCoord.v;     
 //                }
-            }
-//            countAreasToFill = 0;       
+//            
+//
+//                glVertexAttribPointer(FILLING_ATTRIB_VERTEX, 3, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[0]);
+//                glEnableVertexAttribArray(FILLING_ATTRIB_VERTEX);
+//
+//                glVertexAttribPointer(FILLING_ATTRIB_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[3]);
+//                glEnableVertexAttribArray(FILLING_ATTRIB_TEX_COORDS);
+//
+//                glVertexAttribPointer(FILLING_ATTRIB_CIRCLE_TEX_COORDS, 2, GL_FLOAT, GL_FALSE, 7 * sizeof(float), &vertexes[5]);
+//                glEnableVertexAttribArray(FILLING_ATTRIB_CIRCLE_TEX_COORDS);      
+//                
+//                glDrawArrays(GL_TRIANGLES, 0, 6);
+//            
+//                free(vertexes);
+//                
+////                if (![self validateProgram:currentProgram]) {
+////                    NSLog(@"Failed to validate fillingProgram: (%d)", currentProgram);
+////                }
+//            }
+//            countAreasToFill = 0;
 //        }
 //    }
     

@@ -10,7 +10,7 @@
 
 @interface DTLayer : NSObject
 @property GLuint userDrawingTexture;
-@property GLuint DynamicTexture;
+@property GLuint dynamicTexture;
 @property BOOL isVisible;
 @property float opacity;
 - (void)update:(double)currtime;
